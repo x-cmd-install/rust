@@ -1,0 +1,80 @@
+about:
+  description: Empowering everyone to build reliable and efficient software.
+  license: Apache-2.0
+  homepage: https://www.rust-lang.org
+  head: 17fd5b8
+  archived: false
+  latestVersion: 1.98.0
+  collectedAt: 2026-08-29T07:32:39Z
+timeline:
+  created: 2010-06-16
+  lastCommit: 2026-08-28
+  lastRelease: 2026-08-20
+popularity:
+  star: 116335
+  watcher: 1553
+  fork: 15475
+  release: 154
+  contributor: 6830
+  pullRequest: 23761
+  issue: 63692
+language:
+  Rust: 146896902
+  HTML: 10459352
+  Shell: 1246729
+  C: 1212634
+  JavaScript: 803808
+  Python: 569555
+  PowerShell: 403122
+  TypeScript: 279832
+  C++: 206375
+  CSS: 136469
+  Dockerfile: 133796
+  Assembly: 70788
+  Roff: 12770
+  Linker Script: 7431
+  Makefile: 4785
+  Julia: 4196
+  RenderScript: 3118
+  Nix: 2682
+  XSLT: 2439
+  Emacs Lisp: 2222
+  CMake: 1380
+  Batchfile: 1364
+  RPC: 863
+  LLVM: 144
+  Perl: 20
+totalLine: 162462776
+recent:
+  last30d:
+    since: 2026-07-30
+    release: 1
+    mergedPR: 693
+    openPR: 370
+    closedIssue: 122
+    openIssue: 280
+    commit: 2806
+  last90d:
+    since: 2026-05-31
+    release: 4
+    mergedPR: 2175
+    openPR: 624
+    closedIssue: 500
+    openIssue: 638
+    commit: 8898
+  last180d:
+    since: 2026-03-02
+    release: 8
+    mergedPR: 4153
+    openPR: 830
+    closedIssue: 1029
+    openIssue: 1110
+    commit: 17142
+  last360d:
+    since: 2025-09-03
+    release: 14
+    mergedPR: 7679
+    openPR: 1078
+    closedIssue: 2277
+    openIssue: 2049
+    commit: 31380
