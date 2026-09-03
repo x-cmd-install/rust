@@ -1,33 +1,35 @@
 about:
-  description: Empowering everyone to build reliable and efficient software.
+  description:
+  |
+    Empowering everyone to build reliable and efficient software.
   license: Apache-2.0
   homepage: https://www.rust-lang.org
-  head: 2e2b193
+  head: a69a632
   archived: false
-  latestVersion: 1.98.0
-  collectedAt: 2026-09-03T05:21:44Z
+  latestVersion: 1.98.1
+  collectedAt: 2026-09-03T22:34:38Z
 timeline:
   created: 2010-06-16
-  lastCommit: 2026-09-02
-  lastRelease: 2026-08-20
+  lastCommit: 2026-09-03
+  lastRelease: 2026-09-03
 popularity:
-  star: 116991
-  watcher: 1565
-  fork: 15502
-  release: 154
-  contributor: 6844
-  pullRequest: 23834
-  issue: 63748
+  star: 117423
+  watcher: 1563
+  fork: 15512
+  release: 155
+  contributor: 6843
+  pullRequest: 23835
+  issue: 63764
 language:
-  Rust: 147176996
+  Rust: 147233746
   HTML: 10459247
   Shell: 1247749
-  C: 1212634
+  C: 1217567
   JavaScript: 803942
   Python: 571553
   PowerShell: 403122
   TypeScript: 279832
-  C++: 206599
+  C++: 206449
   CSS: 136469
   Dockerfile: 133752
   Assembly: 70788
@@ -44,37 +46,37 @@ language:
   RPC: 863
   LLVM: 144
   Perl: 20
-totalLine: 162746097
+totalBytes: 162807630
 recent:
   last30d:
     since: 2026-08-04
-    release: 1
-    mergedPR: 667
-    openPR: 377
-    closedIssue: 113
-    openIssue: 278
-    commit: 2488
+    release: 2
+    mergedPR: 694
+    openPR: 373
+    closedIssue: 125
+    openIssue: 282
+    commit: 2583
   last90d:
     since: 2026-06-05
-    release: 4
-    mergedPR: 2149
-    openPR: 646
-    closedIssue: 484
-    openIssue: 633
-    commit: 8698
+    release: 5
+    mergedPR: 2178
+    openPR: 640
+    closedIssue: 495
+    openIssue: 638
+    commit: 8799
   last180d:
     since: 2026-03-07
-    release: 7
-    mergedPR: 4156
-    openPR: 856
-    closedIssue: 1019
-    openIssue: 1106
-    commit: 17129
+    release: 8
+    mergedPR: 4185
+    openPR: 849
+    closedIssue: 1031
+    openIssue: 1110
+    commit: 17230
   last360d:
     since: 2025-09-08
-    release: 14
-    mergedPR: 7707
-    openPR: 1107
-    closedIssue: 2283
-    openIssue: 2053
-    commit: 31410
+    release: 15
+    mergedPR: 7736
+    openPR: 1100
+    closedIssue: 2296
+    openIssue: 2056
+    commit: 31511
