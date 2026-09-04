@@ -7,13 +7,13 @@ about:
   head: 0ed41eb
   archived: false
   latestVersion: 1.98.1
-  collectedAt: 2026-09-04T20:15:32Z
+  collectedAt: 2026-09-04T20:25:51Z
 timeline:
   created: 2010-06-16
   lastCommit: 2026-09-04
   lastRelease: 2026-09-03
 popularity:
-  star: 117445
+  star: 117443
   watcher: 1563
   fork: 15523
   release: 155
@@ -105,7 +105,7 @@ total:
   commit: 339084
 ---
 path: /home/runner/.x-repo/github.com/rust-lang/rust
-collectedAt: 2026-09-04T20:17:26Z
+collectedAt: 2026-09-04T20:27:28Z
 loc:
   Rust:
     code: 2936782
