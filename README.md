@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 118,085 · **Forks**: 15,550 · **Open issues**: 63,836 · **Contributors**: 6,845
+- **Stars**: 118,355 · **Forks**: 15,550 · **Open issues**: 63,836 · **Contributors**: 6,845
 
 ## Totals (cumulative)
 
-- **Releases**: 155 · **Merged PRs**: 74237 · **Open PRs**: 1395 · **Closed issues**: 52610 · **Open issues**: 11226 · **Commits**: 339692
+- **Releases**: 155 · **Merged PRs**: 74237 · **Open PRs**: 1398 · **Closed issues**: 52611 · **Open issues**: 11225 · **Commits**: 339692
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 2 | 679 | 359 | 114 | 250 | 2425 |
-| last60d | 2026-07-12 | 3 | 1529 | 532 | 324 | 482 | 5953 |
-| 90d | 2026-06-12 | 5 | 2213 | 639 | 491 | 636 | 8854 |
-| last180d | 2026-03-14 | 8 | 4214 | 846 | 1023 | 1097 | 17402 |
-| 360d | 2025-09-15 | 15 | 7793 | 1109 | 2308 | 2045 | 31692 |
-| last720d | 2024-09-20 | 25 | 16190 | 1308 | 5573 | 3832 | 66103 |
+| 30d | 2026-08-11 | 2 | 679 | 362 | 115 | 249 | 2425 |
+| last60d | 2026-07-12 | 3 | 1529 | 535 | 325 | 481 | 5953 |
+| 90d | 2026-06-12 | 5 | 2213 | 642 | 492 | 635 | 8854 |
+| last180d | 2026-03-14 | 8 | 4214 | 849 | 1024 | 1096 | 17402 |
+| 360d | 2025-09-15 | 15 | 7793 | 1112 | 2309 | 2044 | 31692 |
+| last720d | 2024-09-20 | 25 | 16190 | 1311 | 5574 | 3831 | 66103 |
 
 ## Distribution status
 
@@ -92,4 +92,4 @@ Install metadata for rust lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T21:23:34Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T22:50:53Z._
