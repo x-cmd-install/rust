@@ -12,40 +12,13 @@ Empowering everyone to build reliable and efficient software.
 x install rust
 ```
 
-## 源代码
-
-- **上游仓库**: <https://github.com/rust-lang/rust>
-- **官网**: <https://www.rust-lang.org>
-- **许可证**: Apache-2.0
-
-## 发布
-
-- **最新版本**: `1.98.1` (2026-09-03)
-- **最近提交**: 2026-09-10
-
-## 流行度
-
-- **Star**: 117,999 · **Fork**: 15,550 · **开放 issue**: 63,834 · **贡献者**: 6,845
-
-## 累计统计
-
-- **发布数**: 155 · **已合并 PR**: 74236 · **开放 PR**: 1390 · **已关闭 issue**: 52610 · **开放 issue**: 11224 · **提交数**: 339689
-
-## 最近活动
-
-| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 2 | 678 | 354 | 114 | 248 | 2422 |
-| 90d | 2026-06-12 | 5 | 2212 | 634 | 491 | 634 | 8851 |
-| 360d | 2025-09-15 | 15 | 7792 | 1104 | 2308 | 2043 | 31689 |
-
 ## 代码规模
 
-合计: **3,916,933** 行代码（覆盖前 5 种语言、共 **38980** 个文件）。
+合计: **3,916,934** 行代码（覆盖前 5 种语言、共 **38980** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Rust | 2,940,094 | 330,890 | 404,084 | 38762 |
+| Rust | 2,940,095 | 330,890 | 404,084 | 38762 |
 | Json | 354,909 | 0 | 2 | 57 |
 | Html | 315,546 | 19 | 250 | 139 |
 | Xml | 158,446 | 18 | 73 | 9 |
@@ -61,6 +34,55 @@ x install rust
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
+## 源代码
+
+- **上游仓库**: <https://github.com/rust-lang/rust>
+- **官网**: <https://www.rust-lang.org>
+- **许可证**: Apache-2.0
+
+## 发布
+
+- **最新版本**: `1.98.1` (2026-09-03)
+- **最近提交**: 2026-09-10
+
+## 流行度
+
+- **Star**: 118,085 · **Fork**: 15,550 · **开放 issue**: 63,836 · **贡献者**: 6,845
+
+## 累计统计
+
+- **发布数**: 155 · **已合并 PR**: 74237 · **开放 PR**: 1395 · **已关闭 issue**: 52610 · **开放 issue**: 11226 · **提交数**: 339692
+
+## 最近活动
+
+| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 2 | 679 | 359 | 114 | 250 | 2425 |
+| last60d | 2026-07-12 | 3 | 1529 | 532 | 324 | 482 | 5953 |
+| 90d | 2026-06-12 | 5 | 2213 | 639 | 491 | 636 | 8854 |
+| last180d | 2026-03-14 | 8 | 4214 | 846 | 1023 | 1097 | 17402 |
+| 360d | 2025-09-15 | 15 | 7793 | 1109 | 2308 | 2045 | 31692 |
+| last720d | 2024-09-20 | 25 | 16190 | 1308 | 5573 | 3832 | 66103 |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/rust) 上共有 **1099** 个发行版报告此项目。**108** 个 ✅ 已是最新上游版本，**364** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `1.85.0` | 🪦 legacy |
+| Debian 14 | `1.90.0` | 🪦 legacy |
+| Debian 13 | `1.85.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.93.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.82.0+dfsg0ubuntu0` | 🪦 legacy |
+| Arch | `1.98.1` | ✅ latest |
+| Homebrew | `1.98.1` | ✅ latest |
+| Fedora rawhide | `1.98.1` | ✅ latest |
+| Nix unstable | `1.97.1` | ⚠️ outdated |
+| Void | `1.98.0` | ⚠️ outdated |
+| Alpine edge | `1.97.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.98.0` | ⚠️ outdated |
+
 ## 改进这些数据
 
 rust 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `rust` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -70,4 +92,4 @@ rust 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T16:12:49Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T21:23:35Z._

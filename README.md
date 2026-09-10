@@ -12,40 +12,13 @@ Empowering everyone to build reliable and efficient software.
 x install rust
 ```
 
-## Source
+## Code insight
 
-- **Upstream**: <https://github.com/rust-lang/rust>
-- **Homepage**: <https://www.rust-lang.org>
-- **License**: Apache-2.0
-
-## Release
-
-- **Latest**: `1.98.1` (2026-09-03)
-- **Last commit**: 2026-09-10
-
-## Popularity
-
-- **Stars**: 117,999 · **Forks**: 15,550 · **Open issues**: 63,834 · **Contributors**: 6,845
-
-## Totals (cumulative)
-
-- **Releases**: 155 · **Merged PRs**: 74236 · **Open PRs**: 1390 · **Closed issues**: 52610 · **Open issues**: 11224 · **Commits**: 339689
-
-## Recent activity
-
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 2 | 678 | 354 | 114 | 248 | 2422 |
-| 90d | 2026-06-12 | 5 | 2212 | 634 | 491 | 634 | 8851 |
-| 360d | 2025-09-15 | 15 | 7792 | 1104 | 2308 | 2043 | 31689 |
-
-## Code size
-
-Total: **3,916,933** lines of code across **38980** files in the top 5 languages.
+Total: **3,916,934** lines of code across **38980** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 2,940,094 | 330,890 | 404,084 | 38762 |
+| Rust | 2,940,095 | 330,890 | 404,084 | 38762 |
 | Json | 354,909 | 0 | 2 | 57 |
 | Html | 315,546 | 19 | 250 | 139 |
 | Xml | 158,446 | 18 | 73 | 9 |
@@ -61,6 +34,55 @@ Lowest-scoring checks:
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
+## Source
+
+- **Upstream**: <https://github.com/rust-lang/rust>
+- **Homepage**: <https://www.rust-lang.org>
+- **License**: Apache-2.0
+
+## Release
+
+- **Latest**: `1.98.1` (2026-09-03)
+- **Last commit**: 2026-09-10
+
+## Popularity
+
+- **Stars**: 118,085 · **Forks**: 15,550 · **Open issues**: 63,836 · **Contributors**: 6,845
+
+## Totals (cumulative)
+
+- **Releases**: 155 · **Merged PRs**: 74237 · **Open PRs**: 1395 · **Closed issues**: 52610 · **Open issues**: 11226 · **Commits**: 339692
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 2 | 679 | 359 | 114 | 250 | 2425 |
+| last60d | 2026-07-12 | 3 | 1529 | 532 | 324 | 482 | 5953 |
+| 90d | 2026-06-12 | 5 | 2213 | 639 | 491 | 636 | 8854 |
+| last180d | 2026-03-14 | 8 | 4214 | 846 | 1023 | 1097 | 17402 |
+| 360d | 2025-09-15 | 15 | 7793 | 1109 | 2308 | 2045 | 31692 |
+| last720d | 2024-09-20 | 25 | 16190 | 1308 | 5573 | 3832 | 66103 |
+
+## Distribution status
+
+Reported by **1099** distros on [repology.org](https://repology.org/project/rust). **108** are ✅ on the latest upstream release, **364** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.85.0` | 🪦 legacy |
+| Debian 14 | `1.90.0` | 🪦 legacy |
+| Debian 13 | `1.85.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.93.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.82.0+dfsg0ubuntu0` | 🪦 legacy |
+| Arch | `1.98.1` | ✅ latest |
+| Homebrew | `1.98.1` | ✅ latest |
+| Fedora rawhide | `1.98.1` | ✅ latest |
+| Nix unstable | `1.97.1` | ⚠️ outdated |
+| Void | `1.98.0` | ⚠️ outdated |
+| Alpine edge | `1.97.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.98.0` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for rust lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `rust` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -70,4 +92,4 @@ Install metadata for rust lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:12:48Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T21:23:34Z._
