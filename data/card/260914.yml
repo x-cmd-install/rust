@@ -406,4 +406,3 @@ checks:
     details:
       - 'Warn: 0 commits out of 30 are checked with a SAST tool'
 ---
-{"id":382035148,"author":{"login":"rustbot","id":47979223,"node_id":"MDQ6VXNlcjQ3OTc5MjIz","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOAAsO6M4WxWTM","tag_name":"1.98.1","target_commitish":"main","name":"Rust 1.98.1","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-09-03T13:14:00Z","updated_at":"2026-09-03T13:14:07Z","published_at":"2026-09-03T13:14:07Z","assets":[],"body":"<a id=\"1.98.1\"></a>\n\n- [rustc: fix miscompilation in generating vtables](https://github.com/rust-lang/rust/issues/161441)\n","reactions":{"total_count":100,"+1":40,"-1":0,"laugh":8,"hooray":21,"confused":0,"heart":11,"rocket":13,"eyes":7}}
