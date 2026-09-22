@@ -14,11 +14,11 @@ x install rust
 
 ## Code insight
 
-Total: **3,923,142** lines of code across **39073** files in the top 5 languages.
+Total: **3,924,421** lines of code across **39106** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 2,945,009 | 332,392 | 405,072 | 38852 |
+| Rust | 2,946,276 | 332,725 | 405,327 | 38885 |
 | Json | 355,039 | 0 | 2 | 59 |
 | Html | 315,593 | 26 | 259 | 140 |
 | Xml | 158,446 | 18 | 73 | 9 |
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.98.1` (2026-09-03)
-- **Last commit**: 2026-09-20
+- **Last commit**: 2026-09-21
 
 ## Popularity
 
-- **Stars**: 119,005 · **Forks**: 16,286 · **Open issues**: 63,933 · **Contributors**: 6,864
+- **Stars**: 119,024 · **Forks**: 16,297 · **Open issues**: 63,938 · **Contributors**: 6,864
 
 ## Totals (cumulative)
 
-- **Releases**: 155 · **Merged PRs**: 74501 · **Open PRs**: 1402 · **Closed issues**: 52702 · **Open issues**: 11231 · **Commits**: 340655
+- **Releases**: 155 · **Merged PRs**: 74560 · **Open PRs**: 1373 · **Closed issues**: 52721 · **Open issues**: 11217 · **Commits**: 340869
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-22 | 1 | 603 | 336 | 98 | 234 | 1779 |
-| last60d | 2026-07-23 | 2 | 1486 | 521 | 276 | 465 | 5280 |
-| 90d | 2026-06-23 | 5 | 2220 | 632 | 470 | 635 | 8638 |
-| last180d | 2026-03-25 | 8 | 4221 | 846 | 1019 | 1078 | 17085 |
-| 360d | 2025-09-26 | 14 | 7840 | 1107 | 2268 | 2020 | 31481 |
-| last720d | 2024-10-01 | 25 | 16222 | 1311 | 5525 | 3791 | 66087 |
+| 30d | 2026-08-23 | 1 | 631 | 308 | 99 | 226 | 1971 |
+| last60d | 2026-07-24 | 2 | 1514 | 491 | 271 | 455 | 5481 |
+| 90d | 2026-06-24 | 5 | 2254 | 612 | 467 | 631 | 8839 |
+| last180d | 2026-03-26 | 8 | 4257 | 827 | 1018 | 1069 | 17286 |
+| 360d | 2025-09-27 | 14 | 7883 | 1087 | 2273 | 2011 | 31682 |
+| last720d | 2024-10-02 | 25 | 16256 | 1284 | 5522 | 3777 | 66226 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for rust lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260921.yml` · 2026-09-21T03:32:28Z._
+_Snapshot: `data/card/260922.yml` · 2026-09-22T03:31:46Z._
