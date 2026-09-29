@@ -43,13 +43,13 @@
   "body": "<a id=\"1.98.1\"></a>\n\n- [rustc: fix miscompilation in generating vtables](https://github.com/rust-lang/rust/issues/161441)\n",
   "reactions": {
     "url": "https://api.github.com/repos/rust-lang/rust/releases/382035148/reactions",
-    "total_count": 119,
-    "+1": 46,
+    "total_count": 121,
+    "+1": 47,
     "-1": 0,
     "laugh": 10,
     "hooray": 24,
     "confused": 0,
-    "heart": 15,
+    "heart": 16,
     "rocket": 15,
     "eyes": 9
   }
