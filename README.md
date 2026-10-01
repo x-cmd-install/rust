@@ -14,15 +14,15 @@ x install rust
 
 ## Code insight
 
-Total: **3,933,050** lines of code across **39288** files in the top 5 languages.
+Total: **3,934,016** lines of code across **39296** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 2,954,562 | 334,538 | 406,757 | 39067 |
+| Rust | 2,955,558 | 334,764 | 406,974 | 39075 |
 | Json | 355,041 | 0 | 2 | 59 |
 | Html | 315,593 | 26 | 259 | 140 |
 | Xml | 158,446 | 18 | 73 | 9 |
-| Yaml | 37,097 | 434 | 2,320 | 13 |
+| Yaml | 37,099 | 435 | 2,321 | 13 |
 
 ## OpenSSF Scorecard
 
@@ -31,8 +31,8 @@ Overall score: **7.1 / 10**
 Lowest-scoring checks:
 
 - **Packaging** (-1/10) — packaging workflow not detected
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## Source
 
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.98.1` (2026-09-03)
-- **Last commit**: 2026-09-29
+- **Last commit**: 2026-10-01
 
 ## Popularity
 
-- **Stars**: 119,318 · **Forks**: 17,226 · **Open issues**: 64,023 · **Contributors**: 6,881
+- **Stars**: 119,369 · **Forks**: 17,248 · **Open issues**: 64,033 · **Contributors**: 6,881
 
 ## Totals (cumulative)
 
-- **Releases**: 155 · **Merged PRs**: 74793 · **Open PRs**: 1379 · **Closed issues**: 52797 · **Open issues**: 11226 · **Commits**: 341817
+- **Releases**: 155 · **Merged PRs**: 74809 · **Open PRs**: 1398 · **Closed issues**: 52798 · **Open issues**: 11235 · **Commits**: 341888
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-31 | 1 | 625 | 288 | 93 | 211 | 2013 |
-| last60d | 2026-08-01 | 2 | 1494 | 481 | 256 | 438 | 5516 |
-| 90d | 2026-07-02 | 5 | 2299 | 623 | 468 | 640 | 9077 |
-| last180d | 2026-04-03 | 7 | 4309 | 828 | 1021 | 1058 | 17558 |
-| 360d | 2025-10-05 | 14 | 7969 | 1094 | 2269 | 2023 | 32091 |
-| last720d | 2024-10-10 | 25 | 16301 | 1291 | 5504 | 3761 | 66487 |
+| 30d | 2026-09-01 | 1 | 615 | 299 | 88 | 205 | 2085 |
+| last60d | 2026-08-02 | 2 | 1488 | 497 | 253 | 442 | 5589 |
+| 90d | 2026-07-03 | 5 | 2296 | 641 | 462 | 644 | 9150 |
+| last180d | 2026-04-04 | 7 | 4304 | 846 | 1011 | 1063 | 17632 |
+| 360d | 2025-10-06 | 14 | 7963 | 1114 | 2263 | 2028 | 32165 |
+| last720d | 2024-10-11 | 25 | 16290 | 1311 | 5492 | 3766 | 66465 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for rust lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260930.yml` · 2026-09-30T04:10:50Z._
+_Snapshot: `data/card/261001.yml` · 2026-10-01T04:22:47Z._
