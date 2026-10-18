@@ -43,14 +43,14 @@
   "body": "<a id=\"1.99.1\"></a>\n\n- [library: fix missing symbol `wcslen` on UEFI and embedded targets](https://github.com/rust-lang/rust/issues/163614)\n- [rustc: fix miscompilation of FFI `bool` return values on x86\\_64](https://github.com/rust-lang/rust/issues/163911)\n- [rust-lld: add the rpath for `libLLVM` on macOS](https://github.com/rust-lang/rust/issues/163947)\n",
   "reactions": {
     "url": "https://api.github.com/repos/rust-lang/rust/releases/414547787/reactions",
-    "total_count": 57,
-    "+1": 28,
+    "total_count": 70,
+    "+1": 36,
     "-1": 0,
-    "laugh": 5,
-    "hooray": 10,
+    "laugh": 6,
+    "hooray": 11,
     "confused": 0,
-    "heart": 4,
-    "rocket": 7,
-    "eyes": 3
+    "heart": 5,
+    "rocket": 8,
+    "eyes": 4
   }
 }
