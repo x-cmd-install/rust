@@ -2,12 +2,12 @@ about:
   description: "Empowering everyone to build reliable and efficient software."
   license: Apache-2.0
   homepage: https://www.rust-lang.org
-  head: ce37c4f
+  head: 92b5b8c
   archived: false
   latestVersion: "1.99.1"
   latestRelease: "1.99.1"
   latestPrerelease: ""
-  collectedAt: 2026-10-29T04:31:13Z
+  collectedAt: 2026-10-30T04:30:50Z
 timeline:
   created: 2010-06-16
   lastCommit: 2026-10-29
@@ -15,17 +15,17 @@ timeline:
   lastRelease: 2026-10-16
   lastPrerelease: 
 popularity:
-  star: 120891
+  star: 120823
   watcher: 1553
-  fork: 18000
+  fork: 17988
   release: 157
   contributor: 6940
-  pullRequest: 99982
-  issue: 64491
+  pullRequest: 100022
+  issue: 64506
 language:
-  Rust: 150140522
+  Rust: 150199237
   HTML: 10461986
-  Shell: 1256176
+  Shell: 1256054
   C: 1231062
   JavaScript: 809771
   Python: 600449
@@ -48,72 +48,72 @@ language:
   RPC: 863
   LLVM: 144
   Perl: 20
-totalBytes: 165785014
+totalBytes: 165843607
 recent:
   last30d:
-    since: 2026-09-29
+    since: 2026-09-30
     release: 2
-    mergedPR: 599
-    openPR: 320
+    mergedPR: 592
+    openPR: 325
     closedIssue: 156
-    openIssue: 310
-    commit: 2282
+    openIssue: 315
+    commit: 2379
   last60d:
-    since: 2026-08-30
+    since: 2026-08-31
     release: 3
-    mergedPR: 1379
-    openPR: 471
-    closedIssue: 301
-    openIssue: 484
-    commit: 5252
+    mergedPR: 1375
+    openPR: 472
+    closedIssue: 300
+    openIssue: 485
+    commit: 5357
   last90d:
-    since: 2026-07-31
+    since: 2026-08-01
     release: 4
-    mergedPR: 2271
-    openPR: 621
-    closedIssue: 497
-    openIssue: 679
-    commit: 8903
+    mergedPR: 2269
+    openPR: 627
+    closedIssue: 495
+    openIssue: 680
+    commit: 9009
   last180d:
-    since: 2026-05-02
+    since: 2026-05-03
     release: 8
-    mergedPR: 4386
-    openPR: 881
+    mergedPR: 4395
+    openPR: 886
     closedIssue: 1133
-    openIssue: 1091
-    commit: 17857
+    openIssue: 1099
+    commit: 17964
   last360d:
-    since: 2025-11-03
+    since: 2025-11-04
     release: 15
-    mergedPR: 8238
-    openPR: 1132
-    closedIssue: 2418
-    openIssue: 1995
-    commit: 33296
+    mergedPR: 8240
+    openPR: 1137
+    closedIssue: 2414
+    openIssue: 1996
+    commit: 33403
   last720d:
-    since: 2024-11-08
+    since: 2024-11-09
     release: 26
-    mergedPR: 16394
-    openPR: 1348
-    closedIssue: 5620
-    openIssue: 3701
-    commit: 67159
+    mergedPR: 16405
+    openPR: 1350
+    closedIssue: 5614
+    openIssue: 3705
+    commit: 67197
 total:
   release: 157
-  mergedPR: 75576
-  openPR: 1438
-  closedIssue: 53305
-  openIssue: 11186
-  commit: 345041
+  mergedPR: 75605
+  openPR: 1440
+  closedIssue: 53314
+  openIssue: 11192
+  commit: 345149
 ---
 path: /home/runner/.x-repo/github.com/rust-lang/rust
-collectedAt: 2026-10-29T04:35:39Z
+collectedAt: 2026-10-30T04:34:34Z
 loc:
   Rust:
-    code: 2987132
-    comments: 341638
-    blanks: 411556
-    files: 39436
+    code: 2987647
+    comments: 341932
+    blanks: 411768
+    files: 39450
   Json:
     code: 357659
     comments: 0
@@ -130,9 +130,9 @@ loc:
     blanks: 73
     files: 9
   Yaml:
-    code: 37468
-    comments: 467
-    blanks: 2361
+    code: 37426
+    comments: 455
+    blanks: 2358
     files: 17
   JavaScript:
     code: 19142
@@ -141,13 +141,13 @@ loc:
     files: 164
   Sh:
     code: 17050
-    comments: 1580
+    comments: 1579
     blanks: 1317
     files: 145
   Toml:
-    code: 11226
+    code: 11232
     comments: 2235
-    blanks: 2014
+    blanks: 2016
     files: 629
   Python:
     code: 9854
@@ -310,10 +310,10 @@ loc:
     blanks: 658
     files: 212
 total:
-  code: 3991576
-  comments: 759126
-  blanks: 533586
-  files: 42783
+  code: 3992055
+  comments: 759436
+  blanks: 533805
+  files: 42797
 ---
 date: "2026-10-26"
 repo:
