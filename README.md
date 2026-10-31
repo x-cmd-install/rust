@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 120,823 · **Forks**: 17,988 · **Open issues**: 64,506 · **Contributors**: 6,940
+- **Stars**: 120,875 · **Forks**: 17,995 · **Open issues**: 64,523 · **Contributors**: 6,940
 
 ## Totals (cumulative)
 
-- **Releases**: 157 · **Merged PRs**: 75605 · **Open PRs**: 1440 · **Closed issues**: 53314 · **Open issues**: 11192 · **Commits**: 345149
+- **Releases**: 157 · **Merged PRs**: 75605 · **Open PRs**: 1470 · **Closed issues**: 53327 · **Open issues**: 11196 · **Commits**: 345149
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 2 | 592 | 325 | 156 | 315 | 2379 |
-| last60d | 2026-08-31 | 3 | 1375 | 472 | 300 | 485 | 5357 |
-| 90d | 2026-08-01 | 4 | 2269 | 627 | 495 | 680 | 9009 |
-| last180d | 2026-05-03 | 8 | 4395 | 886 | 1133 | 1099 | 17964 |
-| 360d | 2025-11-04 | 15 | 8240 | 1137 | 2414 | 1996 | 33403 |
-| last720d | 2024-11-09 | 26 | 16405 | 1350 | 5614 | 3705 | 67197 |
+| 30d | 2026-10-01 | 2 | 561 | 353 | 153 | 325 | 2379 |
+| last60d | 2026-09-01 | 3 | 1347 | 496 | 291 | 490 | 5357 |
+| 90d | 2026-08-02 | 4 | 2247 | 651 | 496 | 687 | 9009 |
+| last180d | 2026-05-04 | 8 | 4369 | 915 | 1138 | 1108 | 17964 |
+| 360d | 2025-11-05 | 15 | 8216 | 1167 | 2415 | 1997 | 33403 |
+| last720d | 2024-11-10 | 26 | 16379 | 1380 | 5604 | 3706 | 67128 |
 
 ## Distribution status
 
@@ -73,7 +73,7 @@ Reported by **978** distros on [repology.org](https://repology.org/project/rust)
 | Debian unstable | `1.85.0` | 🪦 legacy |
 | Debian 14 | `1.93.1` | 🪦 legacy |
 | Debian 13 | `1.85.0` | 🪦 legacy |
-| Ubuntu 26.04 LTS | `1.93.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.91.1` | 🪦 legacy |
 | Ubuntu 24.04 LTS | `1.82.0+dfsg0ubuntu0` | 🪦 legacy |
 | Arch | `1.99.1` | ✅ latest |
 | Homebrew | `1.99.1` | ✅ latest |
@@ -92,4 +92,4 @@ Install metadata for rust lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T04:34:48Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T04:16:24Z._
