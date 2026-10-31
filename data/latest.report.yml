@@ -7,7 +7,7 @@ about:
   latestVersion: "1.99.1"
   latestRelease: "1.99.1"
   latestPrerelease: ""
-  collectedAt: 2026-10-30T04:30:50Z
+  collectedAt: 2026-10-31T04:12:45Z
 timeline:
   created: 2010-06-16
   lastCommit: 2026-10-29
@@ -15,13 +15,13 @@ timeline:
   lastRelease: 2026-10-16
   lastPrerelease: 
 popularity:
-  star: 120823
-  watcher: 1553
-  fork: 17988
+  star: 120875
+  watcher: 1556
+  fork: 17995
   release: 157
   contributor: 6940
-  pullRequest: 100022
-  issue: 64506
+  pullRequest: 100060
+  issue: 64523
 language:
   Rust: 150199237
   HTML: 10461986
@@ -51,63 +51,63 @@ language:
 totalBytes: 165843607
 recent:
   last30d:
-    since: 2026-09-30
+    since: 2026-10-01
     release: 2
-    mergedPR: 592
-    openPR: 325
-    closedIssue: 156
-    openIssue: 315
+    mergedPR: 561
+    openPR: 353
+    closedIssue: 153
+    openIssue: 325
     commit: 2379
   last60d:
-    since: 2026-08-31
+    since: 2026-09-01
     release: 3
-    mergedPR: 1375
-    openPR: 472
-    closedIssue: 300
-    openIssue: 485
+    mergedPR: 1347
+    openPR: 496
+    closedIssue: 291
+    openIssue: 490
     commit: 5357
   last90d:
-    since: 2026-08-01
+    since: 2026-08-02
     release: 4
-    mergedPR: 2269
-    openPR: 627
-    closedIssue: 495
-    openIssue: 680
+    mergedPR: 2247
+    openPR: 651
+    closedIssue: 496
+    openIssue: 687
     commit: 9009
   last180d:
-    since: 2026-05-03
+    since: 2026-05-04
     release: 8
-    mergedPR: 4395
-    openPR: 886
-    closedIssue: 1133
-    openIssue: 1099
+    mergedPR: 4369
+    openPR: 915
+    closedIssue: 1138
+    openIssue: 1108
     commit: 17964
   last360d:
-    since: 2025-11-04
+    since: 2025-11-05
     release: 15
-    mergedPR: 8240
-    openPR: 1137
-    closedIssue: 2414
-    openIssue: 1996
+    mergedPR: 8216
+    openPR: 1167
+    closedIssue: 2415
+    openIssue: 1997
     commit: 33403
   last720d:
-    since: 2024-11-09
+    since: 2024-11-10
     release: 26
-    mergedPR: 16405
-    openPR: 1350
-    closedIssue: 5614
-    openIssue: 3705
-    commit: 67197
+    mergedPR: 16379
+    openPR: 1380
+    closedIssue: 5604
+    openIssue: 3706
+    commit: 67128
 total:
   release: 157
   mergedPR: 75605
-  openPR: 1440
-  closedIssue: 53314
-  openIssue: 11192
+  openPR: 1470
+  closedIssue: 53327
+  openIssue: 11196
   commit: 345149
 ---
 path: /home/runner/.x-repo/github.com/rust-lang/rust
-collectedAt: 2026-10-30T04:34:34Z
+collectedAt: 2026-10-31T04:16:07Z
 loc:
   Rust:
     code: 2987647
@@ -406,4 +406,4 @@ checks:
     details:
       - 'Warn: 0 commits out of 30 are checked with a SAST tool'
 ---
-{"id":414547787,"author":{"login":"rustbot","id":47979223,"node_id":"MDQ6VXNlcjQ3OTc5MjIz","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOAAsO6M4YtX9L","tag_name":"1.99.1","target_commitish":"main","name":"Rust 1.99.1","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-10-15T17:41:01Z","updated_at":"2026-10-16T04:47:44Z","published_at":"2026-10-16T04:47:44Z","assets":[],"body":"<a id=\"1.99.1\"></a>\n\n- [library: fix missing symbol `wcslen` on UEFI and embedded targets](https://github.com/rust-lang/rust/issues/163614)\n- [rustc: fix miscompilation of FFI `bool` return values on x86\\_64](https://github.com/rust-lang/rust/issues/163911)\n- [rust-lld: add the rpath for `libLLVM` on macOS](https://github.com/rust-lang/rust/issues/163947)\n","reactions":{"total_count":86,"+1":40,"-1":0,"laugh":8,"hooray":13,"confused":0,"heart":9,"rocket":12,"eyes":4}}
+{"id":414547787,"author":{"login":"rustbot","id":47979223,"node_id":"MDQ6VXNlcjQ3OTc5MjIz","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOAAsO6M4YtX9L","tag_name":"1.99.1","target_commitish":"main","name":"Rust 1.99.1","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-10-15T17:41:01Z","updated_at":"2026-10-16T04:47:44Z","published_at":"2026-10-16T04:47:44Z","assets":[],"body":"<a id=\"1.99.1\"></a>\n\n- [library: fix missing symbol `wcslen` on UEFI and embedded targets](https://github.com/rust-lang/rust/issues/163614)\n- [rustc: fix miscompilation of FFI `bool` return values on x86\\_64](https://github.com/rust-lang/rust/issues/163911)\n- [rust-lld: add the rpath for `libLLVM` on macOS](https://github.com/rust-lang/rust/issues/163947)\n","reactions":{"total_count":87,"+1":41,"-1":0,"laugh":8,"hooray":13,"confused":0,"heart":9,"rocket":12,"eyes":4}}
