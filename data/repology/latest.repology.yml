@@ -1,30 +1,47 @@
-- repo: amazon_2
-  srcname: rust
-  visiblename: rust
-  version: 1.82.0
-  origversion: 1.82.0-4.amzn2.0.2
-  status: legacy
-  summary: The Rust Programming Language
-  licenses:
-    - (Apache-2.0 OR MIT) AND (Artistic-2.0 AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0 AND Unicode-DFS-2016)
-  categories:
-    - Unspecified
 - repo: gnuguix
   srcname: rust
   binname: rust
   visiblename: rust
-  version: 1.91.0
+  version: 1.96.0
   origversion: null
-  status: legacy
+  status: outdated
   summary: Compiler for the Rust programming language
-- repo: gnuguix
-  srcname: rust
+- repo: slackware_15_0
+  subrepo: extra
   binname: rust
   visiblename: rust
-  version: 1.95.0
+  version: 1.88.0
   origversion: null
-  status: legacy
-  summary: Compiler for the Rust programming language
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware_current
+  subrepo: slackware
+  binname: rust
+  visiblename: rust
+  version: 1.99.1
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_15_0
+  subrepo: extra
+  binname: rust
+  visiblename: rust
+  version: 1.88.0
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_current
+  subrepo: slackware64
+  binname: rust
+  visiblename: rust
+  version: 1.99.1
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
 - repo: amazon_2
   srcname: rust
   visiblename: rust
@@ -36,30 +53,17 @@
     - (Apache-2.0 OR MIT) AND (Artistic-2.0 AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0 AND Unicode-DFS-2016)
   categories:
     - Unspecified
-- repo: gnuguix
+- repo: amazon_2
   srcname: rust
-  binname: rust
   visiblename: rust
-  version: 1.86.0
-  origversion: null
+  version: 1.98.1
+  origversion: 1.98.1-1.amzn2
   status: legacy
-  summary: Compiler for the Rust programming language
-- repo: gnuguix
-  srcname: rust
-  binname: rust
-  visiblename: rust
-  version: 1.83.0
-  origversion: null
-  status: legacy
-  summary: Compiler for the Rust programming language
-- repo: gnuguix
-  srcname: rust
-  binname: rust
-  visiblename: rust
-  version: 1.92.0
-  origversion: null
-  status: legacy
-  summary: Compiler for the Rust programming language
+  summary: The Rust Programming Language
+  licenses:
+    - (Apache-2.0 OR MIT) AND (Artistic-2.0 AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0 AND Unicode-3.0)
+  categories:
+    - Unspecified
 - repo: amazon_2
   srcname: rust
   visiblename: rust
@@ -69,39 +73,6 @@
   summary: The Rust Programming Language
   licenses:
     - (Apache-2.0 OR MIT) AND (Artistic-2.0 AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0 AND Unicode-DFS-2016)
-  categories:
-    - Unspecified
-- repo: gnuguix
-  srcname: rust
-  binname: rust
-  visiblename: rust
-  version: 1.87.0
-  origversion: null
-  status: legacy
-  summary: Compiler for the Rust programming language
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: rust
-  visiblename: rust
-  version: 1.92.0
-  origversion: 1.92.0-1.module_el8.10.0+4174+2838000a
-  status: outdated
-  summary: The Rust Programming Language
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - (Apache-2.0 OR MIT) AND (Artistic-2.0 AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0 AND Unicode-3.0)
-  categories:
-    - Unspecified
-- repo: amazon_2
-  srcname: rust
-  visiblename: rust
-  version: 1.85.0
-  origversion: 1.85.0-1.amzn2.0.2
-  status: legacy
-  summary: The Rust Programming Language
-  licenses:
-    - (Apache-2.0 OR MIT) AND (Artistic-2.0 AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0 AND Unicode-3.0)
   categories:
     - Unspecified
 - repo: aerynos
@@ -143,6 +114,20 @@
   version: 1.88.0
   origversion: 1.88.0-1.module_el8.10.0+4067+900203de
   status: legacy
+  summary: The Rust Programming Language
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - (Apache-2.0 OR MIT) AND (Artistic-2.0 AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0 AND Unicode-3.0)
+  categories:
+    - Unspecified
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: rust
+  visiblename: rust
+  version: 1.92.0
+  origversion: 1.92.0-1.module_el8.10.0+4174+2838000a
+  status: outdated
   summary: The Rust Programming Language
   maintainers:
     - packager@almalinux.org
@@ -215,6 +200,17 @@
 - repo: amazon_2
   srcname: rust
   visiblename: rust
+  version: 1.85.0
+  origversion: 1.85.0-1.amzn2.0.2
+  status: legacy
+  summary: The Rust Programming Language
+  licenses:
+    - (Apache-2.0 OR MIT) AND (Artistic-2.0 AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0 AND Unicode-3.0)
+  categories:
+    - Unspecified
+- repo: amazon_2
+  srcname: rust
+  visiblename: rust
   version: 1.86.0
   origversion: 1.86.0-1.amzn2.0.1
   status: legacy
@@ -234,19 +230,6 @@
     - (Apache-2.0 OR MIT) AND (Artistic-2.0 AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0 AND Unicode-3.0)
   categories:
     - Unspecified
-- repo: alpine_3_22
-  subrepo: main
-  srcname: rust
-  binname: rust-lldb
-  visiblename: rust-lldb
-  version: 1.87.0
-  origversion: 1.87.0-r1
-  status: outdated
-  summary: LLDB pretty printers for Rust
-  maintainers:
-    - alpine@ptrcnull.me
-  licenses:
-    - Apache-2.0 OR MIT
 - repo: alpine_3_21
   subrepo: main
   srcname: rust
@@ -542,6 +525,19 @@
   origversion: 1.87.0-r1
   status: outdated
   summary: GDB pretty printers for Rust
+  maintainers:
+    - alpine@ptrcnull.me
+  licenses:
+    - Apache-2.0 OR MIT
+- repo: alpine_3_22
+  subrepo: main
+  srcname: rust
+  binname: rust-lldb
+  visiblename: rust-lldb
+  version: 1.87.0
+  origversion: 1.87.0-r1
+  status: outdated
+  summary: LLDB pretty printers for Rust
   maintainers:
     - alpine@ptrcnull.me
   licenses:
@@ -767,6 +763,17 @@
     - alpine@ptrcnull.me
   licenses:
     - (Apache-2.0 OR MIT) AND OFL-1.1 AND GPL-3.0-or-later AND GPL-3.0-with-GCC-exception AND CC-BY-SA-3.0 LGPL-3.0
+- repo: amazon_2
+  srcname: rust
+  visiblename: rust
+  version: 1.99.0
+  origversion: 1.99.0-1.amzn2
+  status: outdated
+  summary: The Rust Programming Language
+  licenses:
+    - (Apache-2.0 OR MIT) AND (Artistic-2.0 AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0 AND Unicode-3.0)
+  categories:
+    - Unspecified
 - repo: alpine_3_23
   subrepo: main
   srcname: rust
@@ -971,6 +978,19 @@
   origversion: 1.96.1-r0
   status: outdated
   summary: LLDB pretty printers for Rust
+  maintainers:
+    - alpine@ptrcnull.me
+  licenses:
+    - Apache-2.0 OR MIT
+- repo: alpine_edge
+  subrepo: main
+  srcname: rust
+  binname: cargo-zsh-completion
+  visiblename: cargo-zsh-completion
+  version: 1.99.1
+  origversion: 1.99.1-r0
+  status: newest
+  summary: ZSH completions for cargo
   maintainers:
     - alpine@ptrcnull.me
   licenses:
@@ -1121,19 +1141,6 @@
 - repo: alpine_edge
   subrepo: main
   srcname: rust
-  binname: cargo-zsh-completion
-  visiblename: cargo-zsh-completion
-  version: 1.99.1
-  origversion: 1.99.1-r0
-  status: newest
-  summary: ZSH completions for cargo
-  maintainers:
-    - alpine@ptrcnull.me
-  licenses:
-    - Apache-2.0 OR MIT
-- repo: alpine_edge
-  subrepo: main
-  srcname: rust
   binname: rust
   visiblename: rust
   version: 1.99.1
@@ -1274,6 +1281,17 @@
     - alpine@ptrcnull.me
   licenses:
     - Apache-2.0 OR MIT
+- repo: amazon_2
+  srcname: rust
+  visiblename: rust
+  version: 1.82.0
+  origversion: 1.82.0-4.amzn2.0.2
+  status: legacy
+  summary: The Rust Programming Language
+  licenses:
+    - (Apache-2.0 OR MIT) AND (Artistic-2.0 AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0 AND Unicode-DFS-2016)
+  categories:
+    - Unspecified
 - repo: alpine_edge
   subrepo: main
   srcname: rust
@@ -1507,28 +1525,6 @@
     - (Apache-2.0 OR MIT) AND (Artistic-2.0 AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0 AND Unicode-3.0)
   categories:
     - Unspecified
-- repo: amazon_2
-  srcname: rust
-  visiblename: rust
-  version: 1.98.1
-  origversion: 1.98.1-1.amzn2
-  status: legacy
-  summary: The Rust Programming Language
-  licenses:
-    - (Apache-2.0 OR MIT) AND (Artistic-2.0 AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0 AND Unicode-3.0)
-  categories:
-    - Unspecified
-- repo: amazon_2
-  srcname: rust
-  visiblename: rust
-  version: 1.99.0
-  origversion: 1.99.0-1.amzn2
-  status: outdated
-  summary: The Rust Programming Language
-  licenses:
-    - (Apache-2.0 OR MIT) AND (Artistic-2.0 AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0 AND Unicode-3.0)
-  categories:
-    - Unspecified
 - repo: aosc
   srcname: lang-rust/rustc
   binname: rustc
@@ -1556,12 +1552,12 @@
 - repo: arch
   subrepo: extra
   srcname: rust
-  binname: rust-musl
-  visiblename: rust-musl
+  binname: lib32-rust-libs
+  visiblename: lib32-rust-libs
   version: 1.99.1
   origversion: 1:1.99.1-1
   status: newest
-  summary: Musl target for Rust
+  summary: 32-bit target and libraries for Rust
   licenses:
     - Apache-2.0 OR MIT
 - repo: apertis_v2024
@@ -1764,17 +1760,6 @@
 - repo: arch
   subrepo: extra
   srcname: rust
-  binname: rust
-  visiblename: rust
-  version: 1.99.1
-  origversion: 1:1.99.1-1
-  status: newest
-  summary: Systems programming language focused on safety, speed and concurrency
-  licenses:
-    - Apache-2.0 OR MIT
-- repo: arch
-  subrepo: extra
-  srcname: rust
   binname: rust-wasm
   visiblename: rust-wasm
   version: 1.99.1
@@ -1786,23 +1771,12 @@
 - repo: arch
   subrepo: extra
   srcname: rust
-  binname: lib32-rust-libs
-  visiblename: lib32-rust-libs
+  binname: rust
+  visiblename: rust
   version: 1.99.1
   origversion: 1:1.99.1-1
   status: newest
-  summary: 32-bit target and libraries for Rust
-  licenses:
-    - Apache-2.0 OR MIT
-- repo: arch
-  subrepo: extra
-  srcname: rust
-  binname: rust-aarch64-musl
-  visiblename: rust-aarch64-musl
-  version: 1.99.1
-  origversion: 1:1.99.1-1
-  status: newest
-  summary: AArch64 Musl target for Rust
+  summary: Systems programming language focused on safety, speed and concurrency
   licenses:
     - Apache-2.0 OR MIT
 - repo: arch
@@ -1819,12 +1793,34 @@
 - repo: arch
   subrepo: extra
   srcname: rust
+  binname: rust-aarch64-musl
+  visiblename: rust-aarch64-musl
+  version: 1.99.1
+  origversion: 1:1.99.1-1
+  status: newest
+  summary: AArch64 Musl target for Rust
+  licenses:
+    - Apache-2.0 OR MIT
+- repo: arch
+  subrepo: extra
+  srcname: rust
   binname: rust-src
   visiblename: rust-src
   version: 1.99.1
   origversion: 1:1.99.1-1
   status: newest
   summary: Source code for the Rust standard library
+  licenses:
+    - Apache-2.0 OR MIT
+- repo: arch
+  subrepo: extra
+  srcname: rust
+  binname: rust-musl
+  visiblename: rust-musl
+  version: 1.99.1
+  origversion: 1:1.99.1-1
+  status: newest
+  summary: Musl target for Rust
   licenses:
     - Apache-2.0 OR MIT
 - repo: aur
@@ -2189,15 +2185,6 @@
     - (Apache-2.0 OR MIT) AND (Artistic-2.0 AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0 AND Unicode-3.0)
   categories:
     - Unspecified
-- repo: chromebrew
-  srcname: rust
-  visiblename: rust
-  version: 1.99.1
-  origversion: null
-  status: newest
-  summary: Rust is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety.
-  licenses:
-    - Apache-2.0 and MIT
 - repo: centos_stream_10
   subrepo: AppStream
   srcname: rust
@@ -2260,6 +2247,16 @@
     - (Apache-2.0 OR MIT) AND (Artistic-2.0 AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0 AND Unicode-3.0)
   categories:
     - Unspecified
+- repo: crux_38
+  subrepo: opt
+  srcname: rust
+  visiblename: rust
+  version: 1.99.1
+  origversion: null
+  status: newest
+  summary: The Rust language with Cargo included.
+  maintainers:
+    - core-ports@crux.nu
 - repo: centos_stream_10
   subrepo: AppStream
   srcname: rust
@@ -2486,6 +2483,15 @@
   origversion: null
   status: newest
   summary: A systems programming language that runs blazingly fast, prevents nearly all segfaults, and guarantees thread safety
+- repo: chromebrew
+  srcname: rust
+  visiblename: rust
+  version: 1.99.1
+  origversion: null
+  status: newest
+  summary: Rust is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety.
+  licenses:
+    - Apache-2.0 and MIT
 - repo: crux_37
   subrepo: opt
   srcname: rust
@@ -2516,16 +2522,6 @@
   summary: the Rust language, binary version
   maintainers:
     - jmcquah@disroot.org
-- repo: crux_38
-  subrepo: opt
-  srcname: rust
-  visiblename: rust
-  version: 1.99.1
-  origversion: null
-  status: newest
-  summary: The Rust language with Cargo included.
-  maintainers:
-    - core-ports@crux.nu
 - repo: crux_38
   subrepo: contrib
   srcname: rust-wasm
@@ -2744,6 +2740,34 @@
   categories:
     - devel
 - repo: debian_12
+  subrepo: bookworm/main
+  srcname: rustc-web
+  binnames:
+    - rustc-web
+    - libstd-rust-web-1.85
+    - libstd-rust-web-dev
+    - libstd-rust-web-dev-windows
+    - rust-web-gdb
+    - rust-web-lldb
+    - rust-web-doc
+    - rust-web-src
+    - rust-web-clippy
+    - rustfmt-web
+    - rust-web-analyzer
+    - cargo-web
+    - cargo-web-doc
+  visiblename: rustc-web
+  version: 1.85.0
+  origversion: 1.85.0+dfsg3-1~deb12u3
+  status: legacy
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - debian@fabian.gruenbichler.email
+    - infinity0@debian.org
+    - sylvestre@debian.org
+  categories:
+    - misc
+- repo: debian_12
   subrepo: bookworm-security/main
   srcname: rustc-web
   binnames:
@@ -2765,34 +2789,6 @@
   version: 1.96.0
   origversion: 1.96.0+dfsg1-1~deb12u2
   status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - debian@fabian.gruenbichler.email
-    - infinity0@debian.org
-    - sylvestre@debian.org
-  categories:
-    - misc
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: rustc-web
-  binnames:
-    - rustc-web
-    - libstd-rust-web-1.85
-    - libstd-rust-web-dev
-    - libstd-rust-web-dev-windows
-    - rust-web-gdb
-    - rust-web-lldb
-    - rust-web-doc
-    - rust-web-src
-    - rust-web-clippy
-    - rustfmt-web
-    - rust-web-analyzer
-    - cargo-web
-    - cargo-web-doc
-  visiblename: rustc-web
-  version: 1.85.0
-  origversion: 1.85.0+dfsg3-1~deb12u3
-  status: legacy
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
     - debian@fabian.gruenbichler.email
@@ -2831,14 +2827,6 @@
     - sylvestre@debian.org
   categories:
     - rust
-- repo: gnuguix
-  srcname: rust
-  binname: rust
-  visiblename: rust
-  version: 1.82.0
-  origversion: null
-  status: legacy
-  summary: Compiler for the Rust programming language
 - repo: debian_13
   subrepo: trixie/main
   srcname: rustc
@@ -3151,18 +3139,6 @@
     - sylvestre@debian.org
   categories:
     - misc
-- repo: freebsd
-  srcname: lang/rust-bootstrap
-  binname: i386-rust-bootstrap
-  visiblename: lang/rust-bootstrap
-  version: 1.99.1
-  origversion: null
-  status: newest
-  summary: Create bootstrap compilers for building lang/rust
-  maintainers:
-    - rust@freebsd.org
-  categories:
-    - lang
 - repo: debian_14
   subrepo: forky/main
   srcname: rustc
@@ -3481,18 +3457,6 @@
     - sylvestre@debian.org
   categories:
     - rust
-- repo: freebsd
-  srcname: lang/rust-bootstrap
-  binname: powerpc-rust-bootstrap
-  visiblename: lang/rust-bootstrap
-  version: 1.99.1
-  origversion: null
-  status: newest
-  summary: Create bootstrap compilers for building lang/rust
-  maintainers:
-    - rust@freebsd.org
-  categories:
-    - lang
 - repo: debian_unstable
   subrepo: sid/main
   srcname: rustc
@@ -4111,9 +4075,41 @@
     - rust@freebsd.org
   categories:
     - lang
+- repo: gnuguix
+  srcname: rust
+  binname: rust
+  visiblename: rust
+  version: 1.93.0
+  origversion: null
+  status: legacy
+  summary: Compiler for the Rust programming language
 - repo: freebsd
   srcname: lang/rust-bootstrap
   binname: armv7-rust-bootstrap
+  visiblename: lang/rust-bootstrap
+  version: 1.99.1
+  origversion: null
+  status: newest
+  summary: Create bootstrap compilers for building lang/rust
+  maintainers:
+    - rust@freebsd.org
+  categories:
+    - lang
+- repo: freebsd
+  srcname: lang/rust-bootstrap
+  binname: i386-rust-bootstrap
+  visiblename: lang/rust-bootstrap
+  version: 1.99.1
+  origversion: null
+  status: newest
+  summary: Create bootstrap compilers for building lang/rust
+  maintainers:
+    - rust@freebsd.org
+  categories:
+    - lang
+- repo: freebsd
+  srcname: lang/rust-bootstrap
+  binname: powerpc-rust-bootstrap
   visiblename: lang/rust-bootstrap
   version: 1.99.1
   origversion: null
@@ -4183,18 +4179,6 @@
     - rust@freebsd.org
   categories:
     - lang
-- repo: freebsd
-  srcname: lang/rust188
-  binname: rust188
-  visiblename: lang/rust188
-  version: 1.88.0
-  origversion: 1.88.0_1
-  status: legacy
-  summary: Language with a focus on memory safety and concurrency (deprecated 1.88.* series)
-  maintainers:
-    - rust@freebsd.org
-  categories:
-    - lang
 - repo: gentoo
   srcname: sys-devel/rust-std
   visiblename: sys-devel/rust-std
@@ -4208,14 +4192,6 @@
     - '|| ( MIT Apache-2.0 ) BSD-1 BSD-2 BSD-4'
   categories:
     - sys-devel
-- repo: gnuguix
-  srcname: rust
-  binname: rust
-  visiblename: rust
-  version: 1.93.0
-  origversion: null
-  status: legacy
-  summary: Compiler for the Rust programming language
 - repo: gentoo
   srcname: dev-lang/rust
   visiblename: dev-lang/rust
@@ -4398,6 +4374,22 @@
     - '|| ( MIT Apache-2.0 ) BSD-1 BSD-2 BSD-4'
   categories:
     - sys-devel
+- repo: gnuguix
+  srcname: rust
+  binname: rust
+  visiblename: rust
+  version: 1.86.0
+  origversion: null
+  status: legacy
+  summary: Compiler for the Rust programming language
+- repo: gnuguix
+  srcname: rust
+  binname: rust
+  visiblename: rust
+  version: 1.83.0
+  origversion: null
+  status: legacy
+  summary: Compiler for the Rust programming language
 - repo: gentoo
   srcname: dev-lang/rust-bin
   visiblename: dev-lang/rust-bin
@@ -4503,32 +4495,6 @@
   categories:
     - sys-devel
 - repo: gentoo
-  srcname: dev-lang/rust-common
-  visiblename: dev-lang/rust-common
-  version: "9999"
-  origversion: null
-  status: rolling
-  summary: Common files shared between multiple slots of Rust
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
-  categories:
-    - dev-lang
-- repo: gentoo
-  srcname: sys-devel/rust-std
-  visiblename: sys-devel/rust-std
-  version: 1.93.0
-  origversion: null
-  status: legacy
-  summary: Rust standard library, standalone (for crossdev)
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD-1 BSD-2 BSD-4'
-  categories:
-    - sys-devel
-- repo: gentoo
   srcname: dev-lang/rust-bin
   visiblename: dev-lang/rust-bin
   version: 1.95.0
@@ -4704,6 +4670,19 @@
   origversion: null
   status: rolling
   summary: Systems programming language originally developed by Mozilla
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
+  categories:
+    - dev-lang
+- repo: gentoo
+  srcname: dev-lang/rust-common
+  visiblename: dev-lang/rust-common
+  version: "9999"
+  origversion: null
+  status: rolling
+  summary: Common files shared between multiple slots of Rust
   maintainers:
     - rust@gentoo.org
   licenses:
@@ -4714,10 +4693,208 @@
   srcname: rust
   binname: rust
   visiblename: rust
-  version: 1.93.0
+  version: 1.82.0
   origversion: null
   status: legacy
   summary: Compiler for the Rust programming language
+- repo: gentoo
+  srcname: sys-devel/rust-std
+  visiblename: sys-devel/rust-std
+  version: 1.93.0
+  origversion: null
+  status: legacy
+  summary: Rust standard library, standalone (for crossdev)
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD-1 BSD-2 BSD-4'
+  categories:
+    - sys-devel
+- repo: gentoo
+  srcname: dev-lang/rust-bin
+  visiblename: dev-lang/rust-bin
+  version: 1.93.0
+  origversion: null
+  status: legacy
+  summary: Systems programming language from Mozilla
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
+  categories:
+    - dev-lang
+- repo: gentoo
+  srcname: dev-lang/rust
+  visiblename: dev-lang/rust
+  version: 1.93.0
+  origversion: null
+  status: legacy
+  summary: Systems programming language originally developed by Mozilla
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
+  categories:
+    - dev-lang
+- repo: gentoo
+  srcname: dev-lang/rust-common
+  visiblename: dev-lang/rust-common
+  version: 1.93.0
+  origversion: null
+  status: legacy
+  summary: Common files shared between multiple slots of Rust
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
+  categories:
+    - dev-lang
+- repo: gentoo
+  srcname: sys-devel/rust-std
+  visiblename: sys-devel/rust-std
+  version: 1.98.1
+  origversion: null
+  status: legacy
+  summary: Rust standard library, standalone (for crossdev)
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD-1 BSD-2 BSD-4'
+  categories:
+    - sys-devel
+- repo: gnuguix
+  srcname: rust
+  binname: rust
+  visiblename: rust
+  version: 1.92.0
+  origversion: null
+  status: legacy
+  summary: Compiler for the Rust programming language
+- repo: gnuguix
+  srcname: rust
+  binname: rust
+  visiblename: rust
+  version: 1.87.0
+  origversion: null
+  status: legacy
+  summary: Compiler for the Rust programming language
+- repo: gentoo
+  srcname: dev-lang/rust-bin
+  visiblename: dev-lang/rust-bin
+  version: 1.98.1
+  origversion: null
+  status: legacy
+  summary: Systems programming language from Mozilla
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
+  categories:
+    - dev-lang
+- repo: gentoo
+  srcname: dev-lang/rust
+  visiblename: dev-lang/rust
+  version: 1.98.1
+  origversion: null
+  status: legacy
+  summary: Systems programming language originally developed by Mozilla
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
+  categories:
+    - dev-lang
+- repo: gentoo
+  srcname: dev-lang/rust-common
+  visiblename: dev-lang/rust-common
+  version: 1.98.1
+  origversion: null
+  status: legacy
+  summary: Common files shared between multiple slots of Rust
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
+  categories:
+    - dev-lang
+- repo: gentoo
+  srcname: sys-devel/rust-std
+  visiblename: sys-devel/rust-std
+  version: 1.97.1
+  origversion: null
+  status: legacy
+  summary: Rust standard library, standalone (for crossdev)
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD-1 BSD-2 BSD-4'
+  categories:
+    - sys-devel
+- repo: gentoo
+  srcname: dev-lang/rust-bin
+  visiblename: dev-lang/rust-bin
+  version: 1.97.1
+  origversion: null
+  status: legacy
+  summary: Systems programming language from Mozilla
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
+  categories:
+    - dev-lang
+- repo: gentoo
+  srcname: dev-lang/rust
+  visiblename: dev-lang/rust
+  version: 1.97.1
+  origversion: null
+  status: legacy
+  summary: Systems programming language originally developed by Mozilla
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
+  categories:
+    - dev-lang
+- repo: gentoo
+  srcname: dev-lang/rust-common
+  visiblename: dev-lang/rust-common
+  version: 1.97.1
+  origversion: null
+  status: legacy
+  summary: Common files shared between multiple slots of Rust
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
+  categories:
+    - dev-lang
+- repo: gentoo
+  srcname: dev-lang/rust-bin
+  visiblename: dev-lang/rust-bin
+  version: 1.92.0
+  origversion: null
+  status: legacy
+  summary: Systems programming language from Mozilla
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
+  categories:
+    - dev-lang
+- repo: gentoo
+  srcname: dev-lang/rust-common
+  visiblename: dev-lang/rust-common
+  version: 1.92.0
+  origversion: null
+  status: legacy
+  summary: Common files shared between multiple slots of Rust
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
+  categories:
+    - dev-lang
 - repo: gnuguix
   srcname: rust
   binname: rust
@@ -4726,188 +4903,27 @@
   origversion: null
   status: legacy
   summary: Compiler for the Rust programming language
-- repo: gentoo
-  srcname: dev-lang/rust-bin
-  visiblename: dev-lang/rust-bin
-  version: 1.93.0
-  origversion: null
-  status: legacy
-  summary: Systems programming language from Mozilla
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
-  categories:
-    - dev-lang
-- repo: gentoo
-  srcname: dev-lang/rust
-  visiblename: dev-lang/rust
-  version: 1.93.0
-  origversion: null
-  status: legacy
-  summary: Systems programming language originally developed by Mozilla
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
-  categories:
-    - dev-lang
-- repo: gentoo
-  srcname: dev-lang/rust-common
-  visiblename: dev-lang/rust-common
-  version: 1.93.0
-  origversion: null
-  status: legacy
-  summary: Common files shared between multiple slots of Rust
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
-  categories:
-    - dev-lang
-- repo: gentoo
-  srcname: sys-devel/rust-std
-  visiblename: sys-devel/rust-std
-  version: 1.98.1
-  origversion: null
-  status: legacy
-  summary: Rust standard library, standalone (for crossdev)
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD-1 BSD-2 BSD-4'
-  categories:
-    - sys-devel
-- repo: gentoo
-  srcname: dev-lang/rust-bin
-  visiblename: dev-lang/rust-bin
-  version: 1.98.1
-  origversion: null
-  status: legacy
-  summary: Systems programming language from Mozilla
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
-  categories:
-    - dev-lang
-- repo: gentoo
-  srcname: dev-lang/rust
-  visiblename: dev-lang/rust
-  version: 1.98.1
-  origversion: null
-  status: legacy
-  summary: Systems programming language originally developed by Mozilla
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
-  categories:
-    - dev-lang
-- repo: gentoo
-  srcname: dev-lang/rust-common
-  visiblename: dev-lang/rust-common
-  version: 1.98.1
-  origversion: null
-  status: legacy
-  summary: Common files shared between multiple slots of Rust
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
-  categories:
-    - dev-lang
-- repo: gentoo
-  srcname: sys-devel/rust-std
-  visiblename: sys-devel/rust-std
-  version: 1.97.1
-  origversion: null
-  status: legacy
-  summary: Rust standard library, standalone (for crossdev)
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD-1 BSD-2 BSD-4'
-  categories:
-    - sys-devel
-- repo: gentoo
-  srcname: dev-lang/rust-bin
-  visiblename: dev-lang/rust-bin
-  version: 1.97.1
-  origversion: null
-  status: legacy
-  summary: Systems programming language from Mozilla
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
-  categories:
-    - dev-lang
-- repo: gentoo
-  srcname: dev-lang/rust
-  visiblename: dev-lang/rust
-  version: 1.97.1
-  origversion: null
-  status: legacy
-  summary: Systems programming language originally developed by Mozilla
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
-  categories:
-    - dev-lang
-- repo: gentoo
-  srcname: dev-lang/rust-common
-  visiblename: dev-lang/rust-common
-  version: 1.97.1
-  origversion: null
-  status: legacy
-  summary: Common files shared between multiple slots of Rust
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
-  categories:
-    - dev-lang
-- repo: gentoo
-  srcname: dev-lang/rust-bin
-  visiblename: dev-lang/rust-bin
-  version: 1.92.0
-  origversion: null
-  status: legacy
-  summary: Systems programming language from Mozilla
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
-  categories:
-    - dev-lang
-- repo: gentoo
-  srcname: dev-lang/rust-common
-  visiblename: dev-lang/rust-common
-  version: 1.92.0
-  origversion: null
-  status: legacy
-  summary: Common files shared between multiple slots of Rust
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
-  categories:
-    - dev-lang
 - repo: gnuguix
   srcname: rust
   binname: rust
   visiblename: rust
-  version: 1.96.0
+  version: 1.91.0
   origversion: null
-  status: outdated
+  status: legacy
   summary: Compiler for the Rust programming language
 - repo: gnuguix
   srcname: rust
   binname: rust
   visiblename: rust
-  version: 1.94.1
+  version: 1.93.0
+  origversion: null
+  status: legacy
+  summary: Compiler for the Rust programming language
+- repo: gnuguix
+  srcname: rust
+  binname: rust
+  visiblename: rust
+  version: 1.95.0
   origversion: null
   status: legacy
   summary: Compiler for the Rust programming language
@@ -5052,20 +5068,16 @@
   status: newest
   maintainers:
     - owen@owenrafferty.com
-- repo: liguros_stable
-  srcname: sys-devel/rust-std
-  visiblename: sys-devel/rust-std
-  version: 1.86.0
-  origversion: null
-  status: legacy
-  summary: Rust standard library, standalone (for crossdev)
-  maintainers:
-    - rust@gentoo.org
-    - navi@vlhl.dev
+- repo: msys2_clangarm64
+  srcname: mingw-w64-rust
+  binname: mingw-w64-clang-aarch64-rust-emscripten
+  visiblename: mingw-w64-clang-aarch64-rust-emscripten
+  version: 1.99.1
+  origversion: 1.99.1-1
+  status: newest
+  summary: Emscripten target for Rust (mingw-w64)
   licenses:
-    - '|| ( MIT Apache-2.0 ) BSD-1 BSD-2 BSD-4'
-  categories:
-    - sys-devel
+    - spdx:Apache-2.0 AND MIT
 - repo: liguros_stable
   srcname: sys-devel/rust-std
   visiblename: sys-devel/rust-std
@@ -5272,6 +5284,30 @@
     - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
   categories:
     - dev-lang
+- repo: liguros_stable
+  srcname: sys-devel/rust-std
+  visiblename: sys-devel/rust-std
+  version: 1.86.0
+  origversion: null
+  status: legacy
+  summary: Rust standard library, standalone (for crossdev)
+  maintainers:
+    - rust@gentoo.org
+    - navi@vlhl.dev
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD-1 BSD-2 BSD-4'
+  categories:
+    - sys-devel
+- repo: msys2_clang64
+  srcname: mingw-w64-rust
+  binname: mingw-w64-clang-x86_64-rust
+  visiblename: mingw-w64-clang-x86_64-rust
+  version: 1.99.1
+  origversion: 1.99.1-1
+  status: newest
+  summary: Systems programming language focused on safety, speed and concurrency (mingw-w64)
+  licenses:
+    - spdx:Apache-2.0 AND MIT
 - repo: liguros_stable
   srcname: dev-lang/rust
   visiblename: dev-lang/rust
@@ -5561,9 +5597,32 @@
   categories:
     - dev-lang
 - repo: liguros_develop
+  srcname: sys-devel/rust-std
+  visiblename: sys-devel/rust-std
+  version: 1.91.0
+  origversion: null
+  status: legacy
+  summary: Rust standard library, standalone (for crossdev)
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD-1 BSD-2 BSD-4'
+  categories:
+    - sys-devel
+- repo: msys2_clang64
+  srcname: mingw-w64-rust
+  binname: mingw-w64-clang-x86_64-rust-src
+  visiblename: mingw-w64-clang-x86_64-rust-src
+  version: 1.99.1
+  origversion: 1.99.1-1
+  status: newest
+  summary: Source code for the Rust standard library (mingw-w64)
+  licenses:
+    - spdx:Apache-2.0 AND MIT
+- repo: liguros_develop
   srcname: dev-lang/rust-common
   visiblename: dev-lang/rust-common
-  version: 1.95.0
+  version: 1.91.0
   origversion: null
   status: legacy
   summary: Common files shared between multiple slots of Rust
@@ -5576,7 +5635,7 @@
 - repo: liguros_develop
   srcname: dev-lang/rust
   visiblename: dev-lang/rust
-  version: 1.95.0
+  version: 1.91.0
   origversion: null
   status: legacy
   summary: Systems programming language originally developed by Mozilla
@@ -5589,174 +5648,33 @@
 - repo: liguros_develop
   srcname: sys-devel/rust-std
   visiblename: sys-devel/rust-std
-  version: 1.95.0
+  version: 1.99.0
   origversion: null
-  status: legacy
-  summary: Rust standard library, standalone (for crossdev)
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD-1 BSD-2 BSD-4'
-  categories:
-    - sys-devel
-- repo: liguros_develop
-  srcname: dev-lang/rust-common
-  visiblename: dev-lang/rust-common
-  version: "9999"
-  origversion: null
-  status: rolling
-  summary: Common files shared between multiple slots of Rust
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
-  categories:
-    - dev-lang
-- repo: liguros_develop
-  srcname: dev-lang/rust
-  visiblename: dev-lang/rust
-  version: "9999"
-  origversion: null
-  status: rolling
-  summary: Systems programming language originally developed by Mozilla
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
-  categories:
-    - dev-lang
-- repo: liguros_develop
-  srcname: sys-devel/rust-std
-  visiblename: sys-devel/rust-std
-  version: "9999"
-  origversion: null
-  status: rolling
-  summary: Rust standard library, standalone (for crossdev)
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD-1 BSD-2 BSD-4'
-  categories:
-    - sys-devel
-- repo: liguros_develop
-  srcname: dev-lang/rust-common
-  visiblename: dev-lang/rust-common
-  version: 1.96.1
-  origversion: null
-  status: legacy
-  summary: Common files shared between multiple slots of Rust
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
-  categories:
-    - dev-lang
-- repo: liguros_develop
-  srcname: dev-lang/rust
-  visiblename: dev-lang/rust
-  version: 1.96.1
-  origversion: null
-  status: legacy
-  summary: Systems programming language originally developed by Mozilla
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
-  categories:
-    - dev-lang
-- repo: liguros_develop
-  srcname: sys-devel/rust-std
-  visiblename: sys-devel/rust-std
-  version: 1.96.1
-  origversion: null
-  status: legacy
-  summary: Rust standard library, standalone (for crossdev)
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD-1 BSD-2 BSD-4'
-  categories:
-    - sys-devel
-- repo: liguros_develop
-  srcname: dev-lang/rust-common
-  visiblename: dev-lang/rust-common
-  version: 1.92.0
-  origversion: null
-  status: legacy
-  summary: Common files shared between multiple slots of Rust
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
-  categories:
-    - dev-lang
-- repo: liguros_develop
-  srcname: dev-lang/rust-common
-  visiblename: dev-lang/rust-common
-  version: 1.94.0
-  origversion: null
-  status: legacy
-  summary: Common files shared between multiple slots of Rust
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
-  categories:
-    - dev-lang
-- repo: liguros_develop
-  srcname: dev-lang/rust
-  visiblename: dev-lang/rust
-  version: 1.94.0
-  origversion: null
-  status: legacy
-  summary: Systems programming language originally developed by Mozilla
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
-  categories:
-    - dev-lang
-- repo: liguros_develop
-  srcname: sys-devel/rust-std
-  visiblename: sys-devel/rust-std
-  version: 1.94.0
-  origversion: null
-  status: legacy
-  summary: Rust standard library, standalone (for crossdev)
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD-1 BSD-2 BSD-4'
-  categories:
-    - sys-devel
-- repo: liguros_develop
-  srcname: dev-lang/rust-common
-  visiblename: dev-lang/rust-common
-  version: 1.98.1
-  origversion: null
-  status: legacy
-  summary: Common files shared between multiple slots of Rust
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
-  categories:
-    - dev-lang
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: rust
-  binname: rust-aarch64-musl
-  visiblename: rust-aarch64-musl
-  version: 1.98.1
-  origversion: 1:1.98.1-1
   status: outdated
-  summary: AArch64 Musl target for Rust
+  summary: Rust standard library, standalone (for crossdev)
+  maintainers:
+    - rust@gentoo.org
   licenses:
-    - Apache-2.0 OR MIT
+    - '|| ( MIT Apache-2.0 ) BSD-1 BSD-2 BSD-4'
+  categories:
+    - sys-devel
+- repo: liguros_develop
+  srcname: dev-lang/rust-common
+  visiblename: dev-lang/rust-common
+  version: 1.99.0
+  origversion: null
+  status: outdated
+  summary: Common files shared between multiple slots of Rust
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
+  categories:
+    - dev-lang
 - repo: liguros_develop
   srcname: dev-lang/rust-bin
   visiblename: dev-lang/rust-bin
-  version: 1.98.1
+  version: 1.99.0
   origversion: null
   status: legacy
   summary: Systems programming language from Mozilla
@@ -5770,9 +5688,9 @@
 - repo: liguros_develop
   srcname: dev-lang/rust
   visiblename: dev-lang/rust
-  version: 1.98.1
+  version: 1.99.0
   origversion: null
-  status: legacy
+  status: outdated
   summary: Systems programming language originally developed by Mozilla
   maintainers:
     - rust@gentoo.org
@@ -5783,8 +5701,8 @@
 - repo: liguros_develop
   srcname: sys-devel/rust-std
   visiblename: sys-devel/rust-std
-  version: 1.98.1
-  origversion: null
+  version: 1.92.0_p1
+  origversion: 1.92.0_p1-r1
   status: legacy
   summary: Rust standard library, standalone (for crossdev)
   maintainers:
@@ -5794,23 +5712,10 @@
   categories:
     - sys-devel
 - repo: liguros_develop
-  srcname: dev-lang/rust-common
-  visiblename: dev-lang/rust-common
-  version: 1.97.1
-  origversion: null
-  status: legacy
-  summary: Common files shared between multiple slots of Rust
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
-  categories:
-    - dev-lang
-- repo: liguros_develop
   srcname: dev-lang/rust
   visiblename: dev-lang/rust
-  version: 1.97.1
-  origversion: null
+  version: 1.92.0_p1
+  origversion: 1.92.0_p1-r1
   status: legacy
   summary: Systems programming language originally developed by Mozilla
   maintainers:
@@ -5822,56 +5727,7 @@
 - repo: liguros_develop
   srcname: sys-devel/rust-std
   visiblename: sys-devel/rust-std
-  version: 1.97.1
-  origversion: null
-  status: legacy
-  summary: Rust standard library, standalone (for crossdev)
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD-1 BSD-2 BSD-4'
-  categories:
-    - sys-devel
-- repo: msys2_clang64
-  srcname: mingw-w64-rust
-  binname: mingw-w64-clang-x86_64-rust
-  visiblename: mingw-w64-clang-x86_64-rust
-  version: 1.99.1
-  origversion: 1.99.1-1
-  status: newest
-  summary: Systems programming language focused on safety, speed and concurrency (mingw-w64)
-  licenses:
-    - spdx:Apache-2.0 AND MIT
-- repo: liguros_develop
-  srcname: dev-lang/rust-common
-  visiblename: dev-lang/rust-common
-  version: 1.93.0
-  origversion: null
-  status: legacy
-  summary: Common files shared between multiple slots of Rust
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
-  categories:
-    - dev-lang
-- repo: liguros_develop
-  srcname: dev-lang/rust
-  visiblename: dev-lang/rust
-  version: 1.93.0
-  origversion: null
-  status: legacy
-  summary: Systems programming language originally developed by Mozilla
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
-  categories:
-    - dev-lang
-- repo: liguros_develop
-  srcname: sys-devel/rust-std
-  visiblename: sys-devel/rust-std
-  version: 1.93.0
+  version: 1.90.0
   origversion: null
   status: legacy
   summary: Rust standard library, standalone (for crossdev)
@@ -5910,7 +5766,7 @@
 - repo: liguros_develop
   srcname: sys-devel/rust-std
   visiblename: sys-devel/rust-std
-  version: 1.90.0
+  version: 1.94.1
   origversion: null
   status: legacy
   summary: Rust standard library, standalone (for crossdev)
@@ -5949,7 +5805,7 @@
 - repo: liguros_develop
   srcname: sys-devel/rust-std
   visiblename: sys-devel/rust-std
-  version: 1.94.1
+  version: 1.93.1
   origversion: null
   status: legacy
   summary: Rust standard library, standalone (for crossdev)
@@ -5988,7 +5844,7 @@
 - repo: liguros_develop
   srcname: sys-devel/rust-std
   visiblename: sys-devel/rust-std
-  version: 1.93.1
+  version: 1.94.0
   origversion: null
   status: legacy
   summary: Rust standard library, standalone (for crossdev)
@@ -6001,7 +5857,7 @@
 - repo: liguros_develop
   srcname: dev-lang/rust-common
   visiblename: dev-lang/rust-common
-  version: 1.91.0
+  version: 1.94.0
   origversion: null
   status: legacy
   summary: Common files shared between multiple slots of Rust
@@ -6014,7 +5870,7 @@
 - repo: liguros_develop
   srcname: dev-lang/rust
   visiblename: dev-lang/rust
-  version: 1.91.0
+  version: 1.94.0
   origversion: null
   status: legacy
   summary: Systems programming language originally developed by Mozilla
@@ -6027,7 +5883,46 @@
 - repo: liguros_develop
   srcname: sys-devel/rust-std
   visiblename: sys-devel/rust-std
-  version: 1.91.0
+  version: "9999"
+  origversion: null
+  status: rolling
+  summary: Rust standard library, standalone (for crossdev)
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD-1 BSD-2 BSD-4'
+  categories:
+    - sys-devel
+- repo: liguros_develop
+  srcname: dev-lang/rust-common
+  visiblename: dev-lang/rust-common
+  version: "9999"
+  origversion: null
+  status: rolling
+  summary: Common files shared between multiple slots of Rust
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
+  categories:
+    - dev-lang
+- repo: liguros_develop
+  srcname: dev-lang/rust
+  visiblename: dev-lang/rust
+  version: "9999"
+  origversion: null
+  status: rolling
+  summary: Systems programming language originally developed by Mozilla
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
+  categories:
+    - dev-lang
+- repo: liguros_develop
+  srcname: sys-devel/rust-std
+  visiblename: sys-devel/rust-std
+  version: 1.98.1
   origversion: null
   status: legacy
   summary: Rust standard library, standalone (for crossdev)
@@ -6040,9 +5935,9 @@
 - repo: liguros_develop
   srcname: dev-lang/rust-common
   visiblename: dev-lang/rust-common
-  version: 1.99.0
+  version: 1.98.1
   origversion: null
-  status: outdated
+  status: legacy
   summary: Common files shared between multiple slots of Rust
   maintainers:
     - rust@gentoo.org
@@ -6053,7 +5948,7 @@
 - repo: liguros_develop
   srcname: dev-lang/rust-bin
   visiblename: dev-lang/rust-bin
-  version: 1.99.0
+  version: 1.98.1
   origversion: null
   status: legacy
   summary: Systems programming language from Mozilla
@@ -6067,9 +5962,9 @@
 - repo: liguros_develop
   srcname: dev-lang/rust
   visiblename: dev-lang/rust
-  version: 1.99.0
+  version: 1.98.1
   origversion: null
-  status: outdated
+  status: legacy
   summary: Systems programming language originally developed by Mozilla
   maintainers:
     - rust@gentoo.org
@@ -6080,9 +5975,9 @@
 - repo: liguros_develop
   srcname: sys-devel/rust-std
   visiblename: sys-devel/rust-std
-  version: 1.99.0
+  version: 1.97.1
   origversion: null
-  status: outdated
+  status: legacy
   summary: Rust standard library, standalone (for crossdev)
   maintainers:
     - rust@gentoo.org
@@ -6090,6 +5985,162 @@
     - '|| ( MIT Apache-2.0 ) BSD-1 BSD-2 BSD-4'
   categories:
     - sys-devel
+- repo: liguros_develop
+  srcname: dev-lang/rust-common
+  visiblename: dev-lang/rust-common
+  version: 1.97.1
+  origversion: null
+  status: legacy
+  summary: Common files shared between multiple slots of Rust
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
+  categories:
+    - dev-lang
+- repo: liguros_develop
+  srcname: dev-lang/rust
+  visiblename: dev-lang/rust
+  version: 1.97.1
+  origversion: null
+  status: legacy
+  summary: Systems programming language originally developed by Mozilla
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
+  categories:
+    - dev-lang
+- repo: liguros_develop
+  srcname: sys-devel/rust-std
+  visiblename: sys-devel/rust-std
+  version: 1.93.0
+  origversion: null
+  status: legacy
+  summary: Rust standard library, standalone (for crossdev)
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD-1 BSD-2 BSD-4'
+  categories:
+    - sys-devel
+- repo: liguros_develop
+  srcname: dev-lang/rust-common
+  visiblename: dev-lang/rust-common
+  version: 1.93.0
+  origversion: null
+  status: legacy
+  summary: Common files shared between multiple slots of Rust
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
+  categories:
+    - dev-lang
+- repo: liguros_develop
+  srcname: dev-lang/rust
+  visiblename: dev-lang/rust
+  version: 1.93.0
+  origversion: null
+  status: legacy
+  summary: Systems programming language originally developed by Mozilla
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
+  categories:
+    - dev-lang
+- repo: liguros_develop
+  srcname: sys-devel/rust-std
+  visiblename: sys-devel/rust-std
+  version: 1.95.0
+  origversion: null
+  status: legacy
+  summary: Rust standard library, standalone (for crossdev)
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD-1 BSD-2 BSD-4'
+  categories:
+    - sys-devel
+- repo: liguros_develop
+  srcname: dev-lang/rust-common
+  visiblename: dev-lang/rust-common
+  version: 1.95.0
+  origversion: null
+  status: legacy
+  summary: Common files shared between multiple slots of Rust
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
+  categories:
+    - dev-lang
+- repo: liguros_develop
+  srcname: dev-lang/rust
+  visiblename: dev-lang/rust
+  version: 1.95.0
+  origversion: null
+  status: legacy
+  summary: Systems programming language originally developed by Mozilla
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
+  categories:
+    - dev-lang
+- repo: liguros_develop
+  srcname: sys-devel/rust-std
+  visiblename: sys-devel/rust-std
+  version: 1.96.1
+  origversion: null
+  status: legacy
+  summary: Rust standard library, standalone (for crossdev)
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD-1 BSD-2 BSD-4'
+  categories:
+    - sys-devel
+- repo: liguros_develop
+  srcname: dev-lang/rust-common
+  visiblename: dev-lang/rust-common
+  version: 1.96.1
+  origversion: null
+  status: legacy
+  summary: Common files shared between multiple slots of Rust
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
+  categories:
+    - dev-lang
+- repo: liguros_develop
+  srcname: dev-lang/rust
+  visiblename: dev-lang/rust
+  version: 1.96.1
+  origversion: null
+  status: legacy
+  summary: Systems programming language originally developed by Mozilla
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
+  categories:
+    - dev-lang
+- repo: liguros_develop
+  srcname: dev-lang/rust-common
+  visiblename: dev-lang/rust-common
+  version: 1.92.0
+  origversion: null
+  status: legacy
+  summary: Common files shared between multiple slots of Rust
+  maintainers:
+    - rust@gentoo.org
+  licenses:
+    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
+  categories:
+    - dev-lang
 - repo: liguros_develop
   srcname: dev-lang/rust-bin
   visiblename: dev-lang/rust-bin
@@ -6118,32 +6169,6 @@
     - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
   categories:
     - dev-lang
-- repo: liguros_develop
-  srcname: dev-lang/rust
-  visiblename: dev-lang/rust
-  version: 1.92.0_p1
-  origversion: 1.92.0_p1-r1
-  status: legacy
-  summary: Systems programming language originally developed by Mozilla
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
-  categories:
-    - dev-lang
-- repo: liguros_develop
-  srcname: sys-devel/rust-std
-  visiblename: sys-devel/rust-std
-  version: 1.92.0_p1
-  origversion: 1.92.0_p1-r1
-  status: legacy
-  summary: Rust standard library, standalone (for crossdev)
-  maintainers:
-    - rust@gentoo.org
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD-1 BSD-2 BSD-4'
-  categories:
-    - sys-devel
 - repo: macports
   srcname: lang/rust
   binname: rust
@@ -6219,8 +6244,18 @@
     - Development/Other
 - repo: msys2_clang64
   srcname: mingw-w64-rust
-  binname: mingw-w64-clang-x86_64-rust-src
-  visiblename: mingw-w64-clang-x86_64-rust-src
+  binname: mingw-w64-clang-x86_64-rust-emscripten
+  visiblename: mingw-w64-clang-x86_64-rust-emscripten
+  version: 1.99.1
+  origversion: 1.99.1-1
+  status: newest
+  summary: Emscripten target for Rust (mingw-w64)
+  licenses:
+    - spdx:Apache-2.0 AND MIT
+- repo: msys2_clangarm64
+  srcname: mingw-w64-rust
+  binname: mingw-w64-clang-aarch64-rust-src
+  visiblename: mingw-w64-clang-aarch64-rust-src
   version: 1.99.1
   origversion: 1.99.1-1
   status: newest
@@ -6290,6 +6325,17 @@
 - repo: manjaro_stable
   subrepo: extra
   srcname: rust
+  binname: rust-aarch64-musl
+  visiblename: rust-aarch64-musl
+  version: 1.98.1
+  origversion: 1:1.98.1-1
+  status: outdated
+  summary: AArch64 Musl target for Rust
+  licenses:
+    - Apache-2.0 OR MIT
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: rust
   binname: rust-musl
   visiblename: rust-musl
   version: 1.98.1
@@ -6507,16 +6553,6 @@
   summary: Source code for the Rust standard library
   licenses:
     - Apache-2.0 OR MIT
-- repo: msys2_clang64
-  srcname: mingw-w64-rust
-  binname: mingw-w64-clang-x86_64-rust-emscripten
-  visiblename: mingw-w64-clang-x86_64-rust-emscripten
-  version: 1.99.1
-  origversion: 1.99.1-1
-  status: newest
-  summary: Emscripten target for Rust (mingw-w64)
-  licenses:
-    - spdx:Apache-2.0 AND MIT
 - repo: msys2_clang64
   srcname: mingw-w64-rust
   binname: mingw-w64-clang-x86_64-rust-wasm
@@ -6545,26 +6581,6 @@
   origversion: 1.99.1-1
   status: newest
   summary: WebAssembly targets for Rust (mingw-w64)
-  licenses:
-    - spdx:Apache-2.0 AND MIT
-- repo: msys2_clangarm64
-  srcname: mingw-w64-rust
-  binname: mingw-w64-clang-aarch64-rust-emscripten
-  visiblename: mingw-w64-clang-aarch64-rust-emscripten
-  version: 1.99.1
-  origversion: 1.99.1-1
-  status: newest
-  summary: Emscripten target for Rust (mingw-w64)
-  licenses:
-    - spdx:Apache-2.0 AND MIT
-- repo: msys2_clangarm64
-  srcname: mingw-w64-rust
-  binname: mingw-w64-clang-aarch64-rust-src
-  visiblename: mingw-w64-clang-aarch64-rust-src
-  version: 1.99.1
-  origversion: 1.99.1-1
-  status: newest
-  summary: Source code for the Rust standard library (mingw-w64)
   licenses:
     - spdx:Apache-2.0 AND MIT
 - repo: msys2_mingw
@@ -6755,24 +6771,24 @@
     - lang
 - repo: openbsd
   srcname: lang/rust
-  binname: rust-clippy
-  visiblename: lang/rust
-  version: 1.99.1
-  origversion: null
-  status: newest
-  summary: Rust linter
-  maintainers:
-    - semarie@kapouay.eu.org
-  categories:
-    - lang
-- repo: openbsd
-  srcname: lang/rust
   binname: rust-gdb
   visiblename: lang/rust
   version: 1.99.1
   origversion: null
   status: newest
   summary: Rust debugger through gdb and lldb
+  maintainers:
+    - semarie@kapouay.eu.org
+  categories:
+    - lang
+- repo: openbsd
+  srcname: lang/rust
+  binname: rust-clippy
+  visiblename: lang/rust
+  version: 1.99.1
+  origversion: null
+  status: newest
+  summary: Rust linter
   maintainers:
     - semarie@kapouay.eu.org
   categories:
@@ -6916,16 +6932,6 @@
   summary: Rust - Safe, concurrent, practical language
   categories:
     - Development/Other Languages
-- repo: starkos
-  subrepo: extra
-  srcname: rust-bin
-  visiblename: rust-bin
-  version: 1.99.1
-  origversion: 1.99.1-1
-  status: newest
-  summary: Binary precompiled packages for Rust
-  maintainers:
-    - starkos@disroot.org
 - repo: openkylin_3_0
   subrepo: huanghe-proposed/main
   srcname: rustc-1.82
@@ -7450,6 +7456,18 @@
     - Apache-2.0 OR MIT
   categories:
     - Development/Languages/Rust
+- repo: pkgsrc_current
+  srcname: lang/rust
+  binname: rust
+  visiblename: lang/rust
+  version: 1.98.1
+  origversion: 1.98.1nb1
+  status: outdated
+  summary: Safe, concurrent, practical language
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - lang
 - repo: opensuse_leap_15_6
   subrepo: updates/sle
   srcname: rust1.90
@@ -7732,16 +7750,6 @@
     - Apache-2.0 OR MIT
   categories:
     - Development/Languages/Rust
-- repo: starkos
-  subrepo: main
-  srcname: rust
-  visiblename: rust
-  version: 1.99.1
-  origversion: 1.99.1-1
-  status: newest
-  summary: The Rust programming language is designed to be a safe, concurrent, practical language
-  maintainers:
-    - starkos@disroot.org
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: rust1.90
@@ -7917,6 +7925,61 @@
 - repo: parabola
   subrepo: extra
   srcname: rust
+  binname: rust-musl
+  visiblename: rust-musl
+  version: 1.99.1
+  origversion: 1:1.99.1-1
+  status: newest
+  summary: Musl target for Rust
+  licenses:
+    - Apache-2.0 OR MIT
+- repo: parabola
+  subrepo: extra
+  srcname: rust
+  binname: rust-src
+  visiblename: rust-src
+  version: 1.99.1
+  origversion: 1:1.99.1-1
+  status: newest
+  summary: Source code for the Rust standard library
+  licenses:
+    - Apache-2.0 OR MIT
+- repo: parabola
+  subrepo: extra
+  srcname: rust
+  binname: rust-wasm
+  visiblename: rust-wasm
+  version: 1.99.1
+  origversion: 1:1.99.1-1
+  status: newest
+  summary: WebAssembly targets for Rust
+  licenses:
+    - Apache-2.0 OR MIT
+- repo: parabola
+  subrepo: extra
+  srcname: rust
+  binname: rust-aarch64-musl
+  visiblename: rust-aarch64-musl
+  version: 1.99.1
+  origversion: 1:1.99.1-1
+  status: newest
+  summary: AArch64 Musl target for Rust
+  licenses:
+    - Apache-2.0 OR MIT
+- repo: parabola
+  subrepo: extra
+  srcname: rust
+  binname: rust-aarch64-gnu
+  visiblename: rust-aarch64-gnu
+  version: 1.99.1
+  origversion: 1:1.99.1-1
+  status: newest
+  summary: AArch64 GNU target for Rust
+  licenses:
+    - Apache-2.0 OR MIT
+- repo: parabola
+  subrepo: extra
+  srcname: rust
   binname: rust
   visiblename: rust
   version: 1.99.1
@@ -7934,61 +7997,6 @@
   origversion: 1:1.99.1-1
   status: newest
   summary: 32-bit target and libraries for Rust
-  licenses:
-    - Apache-2.0 OR MIT
-- repo: parabola
-  subrepo: extra
-  srcname: rust
-  binname: rust-wasm
-  visiblename: rust-wasm
-  version: 1.99.1
-  origversion: 1:1.99.1-1
-  status: newest
-  summary: WebAssembly targets for Rust
-  licenses:
-    - Apache-2.0 OR MIT
-- repo: parabola
-  subrepo: extra
-  srcname: rust
-  binname: rust-aarch64-gnu
-  visiblename: rust-aarch64-gnu
-  version: 1.99.1
-  origversion: 1:1.99.1-1
-  status: newest
-  summary: AArch64 GNU target for Rust
-  licenses:
-    - Apache-2.0 OR MIT
-- repo: parabola
-  subrepo: extra
-  srcname: rust
-  binname: rust-src
-  visiblename: rust-src
-  version: 1.99.1
-  origversion: 1:1.99.1-1
-  status: newest
-  summary: Source code for the Rust standard library
-  licenses:
-    - Apache-2.0 OR MIT
-- repo: parabola
-  subrepo: extra
-  srcname: rust
-  binname: rust-musl
-  visiblename: rust-musl
-  version: 1.99.1
-  origversion: 1:1.99.1-1
-  status: newest
-  summary: Musl target for Rust
-  licenses:
-    - Apache-2.0 OR MIT
-- repo: parabola
-  subrepo: extra
-  srcname: rust
-  binname: rust-aarch64-musl
-  visiblename: rust-aarch64-musl
-  version: 1.99.1
-  origversion: 1:1.99.1-1
-  status: newest
-  summary: AArch64 Musl target for Rust
   licenses:
     - Apache-2.0 OR MIT
 - repo: pardus_21
@@ -8255,18 +8263,6 @@
   categories:
     - lang
 - repo: pkgsrc_current
-  srcname: lang/rust
-  binname: rust
-  visiblename: lang/rust
-  version: 1.98.1
-  origversion: 1.98.1nb1
-  status: outdated
-  summary: Safe, concurrent, practical language
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - lang
-- repo: pkgsrc_current
   srcname: lang/rust-bin
   binname: rust-bin
   visiblename: lang/rust-bin
@@ -8284,37 +8280,20 @@
   version: 1.98.1
   origversion: 1.98.1-2
   status: outdated
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: rustc
-  binnames:
-    - cargo
-    - cargo-doc
-    - libstd-rust-1.85
-    - libstd-rust-dev
-    - libstd-rust-dev-wasm32
-    - libstd-rust-dev-windows
-    - rust-all
-    - rust-analyzer
-    - rust-clippy
-    - rust-doc
-    - rust-gdb
-    - rust-lldb
-    - rust-llvm
-    - rust-src
-    - rustc
-    - rustfmt
-  visiblename: rustc
-  version: 1.85.1
-  origversion: 1.85.1+dfsg1-1+deb13u1
+- repo: rocky_8
+  subrepo: AppStream
+  srcname: rust
+  visiblename: rust
+  version: 1.92.0
+  origversion: 1.92.0-1.module+el8.10.0+40191+971f4d77
   status: outdated
+  summary: The Rust Programming Language
   maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - debian@fabian.gruenbichler.email
-    - infinity0@debian.org
-    - sylvestre@debian.org
+    - infrastructure@rockylinux.org
+  licenses:
+    - (Apache-2.0 OR MIT) AND (Artistic-2.0 AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0 AND Unicode-3.0)
   categories:
-    - devel
+    - Unspecified
 - repo: pureos_landing
   subrepo: landing/main
   srcname: rustc-web
@@ -8338,6 +8317,37 @@
   visiblename: rustc-web
   version: 1.96.0
   origversion: 1.96.0+dfsg1-1~deb13u1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - debian@fabian.gruenbichler.email
+    - infinity0@debian.org
+    - sylvestre@debian.org
+  categories:
+    - devel
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: rustc
+  binnames:
+    - cargo
+    - cargo-doc
+    - libstd-rust-1.85
+    - libstd-rust-dev
+    - libstd-rust-dev-wasm32
+    - libstd-rust-dev-windows
+    - rust-all
+    - rust-analyzer
+    - rust-clippy
+    - rust-doc
+    - rust-gdb
+    - rust-lldb
+    - rust-llvm
+    - rust-src
+    - rustc
+    - rustfmt
+  visiblename: rustc
+  version: 1.85.1
+  origversion: 1.85.1+dfsg1-1+deb13u1
   status: outdated
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
@@ -8494,29 +8504,6 @@
     - (Apache-2.0 OR MIT) AND (Artistic-2.0 AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0 AND Unicode-3.0)
   categories:
     - Unspecified
-- repo: rocky_8
-  subrepo: AppStream
-  srcname: rust
-  visiblename: rust
-  version: 1.92.0
-  origversion: 1.92.0-1.module+el8.10.0+40191+971f4d77
-  status: outdated
-  summary: The Rust Programming Language
-  maintainers:
-    - infrastructure@rockylinux.org
-  licenses:
-    - (Apache-2.0 OR MIT) AND (Artistic-2.0 AND BSD-3-Clause AND ISC AND MIT AND MPL-2.0 AND Unicode-3.0)
-  categories:
-    - Unspecified
-- repo: scoop
-  subrepo: main
-  binname: rust
-  visiblename: rust
-  version: 1.99.1
-  origversion: null
-  status: newest
-  licenses:
-    - MIT|Apache-2.0
 - repo: rocky_9
   subrepo: AppStream
   srcname: rust
@@ -8694,6 +8681,15 @@
     - MIT|Apache-2.0
 - repo: scoop
   subrepo: main
+  binname: rust
+  visiblename: rust
+  version: 1.99.1
+  origversion: null
+  status: newest
+  licenses:
+    - MIT|Apache-2.0
+- repo: scoop
+  subrepo: main
   binname: rust-msvc
   visiblename: rust-msvc
   version: 1.99.1
@@ -8740,42 +8736,6 @@
     - kvngncrlsn@gmail.com
   categories:
     - development
-- repo: slackware_15_0
-  subrepo: extra
-  binname: rust
-  visiblename: rust
-  version: 1.88.0
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware_current
-  subrepo: slackware
-  binname: rust
-  visiblename: rust
-  version: 1.99.1
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware64_15_0
-  subrepo: extra
-  binname: rust
-  visiblename: rust
-  version: 1.88.0
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware64_current
-  subrepo: slackware64
-  binname: rust
-  visiblename: rust
-  version: 1.99.1
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
 - repo: solus
   srcname: rust
   binname: rust
@@ -8908,16 +8868,26 @@
   maintainers:
     - alecbcs@spack
     - mcmehrtens@spack
-- repo: slackware_15_0
-  subrepo: slackware
-  binname: rust
-  visiblename: rust
-  version: 1.58.1
-  origversion: null
-  status: legacy
+- repo: starkos
+  subrepo: extra
+  srcname: rust-bin
+  visiblename: rust-bin
+  version: 1.99.1
+  origversion: 1.99.1-1
+  status: newest
+  summary: Binary precompiled packages for Rust
   maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
+    - starkos@disroot.org
+- repo: starkos
+  subrepo: main
+  srcname: rust
+  visiblename: rust
+  version: 1.99.1
+  origversion: 1.99.1-1
+  status: newest
+  summary: The Rust programming language is designed to be a safe, concurrent, practical language
+  maintainers:
+    - starkos@disroot.org
 - repo: t2
   srcname: rustc
   visiblename: rustc
@@ -9141,12 +9111,25 @@
 - repo: void_x86_64
   subrepo: x86_64
   srcname: rust
-  binname: rust-doc
-  visiblename: rust-doc
+  binname: rust-src
+  visiblename: rust-src
   version: 1.99.0
   origversion: 1.99.0_1
   status: outdated
-  summary: Safe, concurrent, practical systems language - documentation
+  summary: Safe, concurrent, practical systems language - source code
+  maintainers:
+    - gottox@voidlinux.org
+  licenses:
+    - Apache-2.0 OR MIT
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: rust
+  binname: rust-std
+  visiblename: rust-std
+  version: 1.99.0
+  origversion: 1.99.0_1
+  status: outdated
+  summary: Safe, concurrent, practical systems language - standard library
   maintainers:
     - gottox@voidlinux.org
   licenses:
@@ -9584,6 +9567,34 @@
   categories:
     - universe/devel
 - repo: ubuntu_26_04
+  subrepo: resolute/main
+  srcname: rustc-1.93
+  binnames:
+    - rustc-1.93
+    - libstd-rust-1.93
+    - libstd-rust-1.93-dev
+    - rust-1.93-gdb
+    - rust-1.93-lldb
+    - rust-1.93-doc
+    - rust-1.93-src
+    - rust-1.93-clippy
+    - rust-1.93-miri
+    - rustfmt-1.93
+    - rust-1.93-all
+    - cargo-1.93
+    - cargo-1.93-doc
+  visiblename: rustc-1.93
+  version: 1.93.1
+  origversion: 1.93.1+dfsg-0ubuntu6
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - debian@fabian.gruenbichler.email
+    - infinity0@debian.org
+    - sylvestre@debian.org
+  categories:
+    - devel
+- repo: ubuntu_26_04
   subrepo: resolute/universe
   srcname: rustc-1.91
   binnames:
@@ -9637,34 +9648,6 @@
     - sylvestre@debian.org
   categories:
     - universe/devel
-- repo: ubuntu_26_04
-  subrepo: resolute/main
-  srcname: rustc-1.93
-  binnames:
-    - rustc-1.93
-    - libstd-rust-1.93
-    - libstd-rust-1.93-dev
-    - rust-1.93-gdb
-    - rust-1.93-lldb
-    - rust-1.93-doc
-    - rust-1.93-src
-    - rust-1.93-clippy
-    - rust-1.93-miri
-    - rustfmt-1.93
-    - rust-1.93-all
-    - cargo-1.93
-    - cargo-1.93-doc
-  visiblename: rustc-1.93
-  version: 1.93.1
-  origversion: 1.93.1+dfsg-0ubuntu6
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - debian@fabian.gruenbichler.email
-    - infinity0@debian.org
-    - sylvestre@debian.org
-  categories:
-    - devel
 - repo: ubuntu_26_10
   subrepo: stonking/main
   srcname: rustc-1.97
@@ -9768,25 +9751,12 @@
 - repo: void_x86_64
   subrepo: x86_64
   srcname: rust
-  binname: rust-src
-  visiblename: rust-src
+  binname: rust-doc
+  visiblename: rust-doc
   version: 1.99.0
   origversion: 1.99.0_1
   status: outdated
-  summary: Safe, concurrent, practical systems language - source code
-  maintainers:
-    - gottox@voidlinux.org
-  licenses:
-    - Apache-2.0 OR MIT
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: rust
-  binname: rust-std
-  visiblename: rust-std
-  version: 1.99.0
-  origversion: 1.99.0_1
-  status: outdated
-  summary: Safe, concurrent, practical systems language - standard library
+  summary: Safe, concurrent, practical systems language - documentation
   maintainers:
     - gottox@voidlinux.org
   licenses:
@@ -9829,95 +9799,15 @@
   srcname: rust
   binname: rust
   visiblename: rust
-  version: 1.78.0
+  version: 1.94.1
   origversion: null
   status: legacy
   summary: Compiler for the Rust programming language
-  vulnerable: true
 - repo: gnuguix
   srcname: rust
   binname: rust
   visiblename: rust
-  version: 1.59.0
-  origversion: null
-  status: legacy
-  summary: Compiler for the Rust programming language
-  vulnerable: true
-- repo: amazon_2
-  srcname: rust
-  visiblename: rust
-  version: 1.68.2
-  origversion: 1.68.2-1.amzn2.0.8
-  status: legacy
-  summary: The Rust Programming Language
-  licenses:
-    - (ASL 2.0 or MIT) and (BSD and MIT)
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: rust1.67
-  visiblename: rust1.67
-  version: 1.67.1
-  origversion: 1.67.1-150400.9.6.1
-  status: legacy
-  summary: A systems programming language
-  licenses:
-    - Apache-2.0 OR MIT
-  categories:
-    - Development/Languages/Rust
-  vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: rust1.68
-  visiblename: rust1.68
-  version: 1.68.2
-  origversion: 1.68.2-150400.9.10.2
-  status: legacy
-  summary: A systems programming language
-  licenses:
-    - Apache-2.0 OR MIT
-  categories:
-    - Development/Languages/Rust
-  vulnerable: true
-- repo: adelie_current
-  subrepo: user
-  srcname: rust
-  binname: cargo-clippy
-  visiblename: cargo-clippy
-  version: 1.80.0
-  origversion: 1.80.0-r0
-  status: outdated
-  summary: A collection of Rust lints (cargo plugin)
-  maintainers:
-    - samuel@sholland.org
-  licenses:
-    - (Apache-2.0 OR MIT) AND (NCSA OR MIT) AND BSD-2-Clause AND BSD-3-Clause
-  vulnerable: true
-- repo: gnuguix
-  srcname: rust
-  binname: rust
-  visiblename: rust
-  version: 1.54.0
-  origversion: null
-  status: legacy
-  summary: Compiler for the Rust programming language
-  vulnerable: true
-- repo: gnuguix
-  srcname: rust
-  binname: rust
-  visiblename: rust
-  version: 1.57.0
-  origversion: null
-  status: legacy
-  summary: Compiler for the Rust programming language
-  vulnerable: true
-- repo: gnuguix
-  srcname: rust
-  binname: rust
-  visiblename: rust
-  version: 1.76.0
+  version: 1.72.1
   origversion: null
   status: legacy
   summary: Compiler for the Rust programming language
@@ -9933,6 +9823,53 @@
     - (ASL 2.0 or MIT) and (BSD and MIT)
   categories:
     - Unspecified
+  vulnerable: true
+- repo: gnuguix
+  srcname: rust
+  binname: rust
+  visiblename: rust
+  version: 1.66.1
+  origversion: null
+  status: legacy
+  summary: Compiler for the Rust programming language
+  vulnerable: true
+- repo: slackware64_15_0
+  subrepo: slackware64
+  binname: rust
+  visiblename: rust
+  version: 1.58.1
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: gnuguix
+  srcname: rust
+  binname: rust
+  visiblename: rust
+  version: 1.55.0
+  origversion: null
+  status: legacy
+  summary: Compiler for the Rust programming language
+  vulnerable: true
+- repo: gnuguix
+  srcname: rust
+  binname: rust
+  visiblename: rust
+  version: 1.79.0
+  origversion: null
+  status: legacy
+  summary: Compiler for the Rust programming language
+  vulnerable: true
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: rust
+  visiblename: rust
+  version: 1.58.1
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
   vulnerable: true
 - repo: adelie_current
   subrepo: user
@@ -9961,6 +9898,20 @@
     - samuel@sholland.org
   licenses:
     - Apache-2.0 OR MIT
+  vulnerable: true
+- repo: adelie_current
+  subrepo: user
+  srcname: rust
+  binname: cargo-clippy
+  visiblename: cargo-clippy
+  version: 1.80.0
+  origversion: 1.80.0-r0
+  status: outdated
+  summary: A collection of Rust lints (cargo plugin)
+  maintainers:
+    - samuel@sholland.org
+  licenses:
+    - (Apache-2.0 OR MIT) AND (NCSA OR MIT) AND BSD-2-Clause AND BSD-3-Clause
   vulnerable: true
 - repo: adelie_current
   subrepo: user
@@ -10371,6 +10322,18 @@
   licenses:
     - Apache-2.0 AND MIT OFL-1.1 GPL-3.0-or-later GPL-3.0-with-GCC-exception CC-BY-SA-3.0 LGPL-3.0
   vulnerable: true
+- repo: amazon_2
+  srcname: rust
+  visiblename: rust
+  version: 1.66.1
+  origversion: 1.66.1-1.amzn2.0.1
+  status: legacy
+  summary: The Rust Programming Language
+  licenses:
+    - (ASL 2.0 or MIT) and (BSD and MIT)
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: alpine_3_17
   subrepo: community
   srcname: rust
@@ -10679,6 +10642,18 @@
   licenses:
     - Apache-2.0 AND MIT
   vulnerable: true
+- repo: amazon_2
+  srcname: rust
+  visiblename: rust
+  version: 1.68.2
+  origversion: 1.68.2-1.amzn2.0.1
+  status: legacy
+  summary: The Rust Programming Language
+  licenses:
+    - (ASL 2.0 or MIT) and (BSD and MIT)
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: alpine_3_19
   subrepo: main
   srcname: rust
@@ -10931,20 +10906,11 @@
   licenses:
     - Apache-2.0 MIT
   vulnerable: true
-- repo: gnuguix
-  srcname: rust
-  binname: rust
-  visiblename: rust
-  version: 1.67.1
-  origversion: null
-  status: legacy
-  summary: Compiler for the Rust programming language
-  vulnerable: true
 - repo: amazon_2
   srcname: rust
   visiblename: rust
   version: 1.68.2
-  origversion: 1.68.2-1.amzn2.0.6
+  origversion: 1.68.2-1.amzn2.0.8
   status: legacy
   summary: The Rust Programming Language
   licenses:
@@ -11014,75 +10980,6 @@
     - (ASL 2.0 or MIT) and (BSD and MIT)
   categories:
     - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: rust
-  visiblename: rust
-  version: 1.66.1
-  origversion: 1.66.1-1.amzn2.0.1
-  status: legacy
-  summary: The Rust Programming Language
-  licenses:
-    - (ASL 2.0 or MIT) and (BSD and MIT)
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: rust
-  visiblename: rust
-  version: 1.68.2
-  origversion: 1.68.2-1.amzn2.0.1
-  status: legacy
-  summary: The Rust Programming Language
-  licenses:
-    - (ASL 2.0 or MIT) and (BSD and MIT)
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: rust
-  visiblename: rust
-  version: 1.68.2
-  origversion: 1.68.2-1.amzn2.0.3
-  status: legacy
-  summary: The Rust Programming Language
-  licenses:
-    - (ASL 2.0 or MIT) and (BSD and MIT)
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: rust
-  visiblename: rust
-  version: 1.68.2
-  origversion: 1.68.2-1.amzn2.0.4
-  status: legacy
-  summary: The Rust Programming Language
-  licenses:
-    - (ASL 2.0 or MIT) and (BSD and MIT)
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: rust
-  visiblename: rust
-  version: 1.68.2
-  origversion: 1.68.2-1.amzn2.0.5
-  status: legacy
-  summary: The Rust Programming Language
-  licenses:
-    - (ASL 2.0 or MIT) and (BSD and MIT)
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: gnuguix
-  srcname: rust
-  binname: rust
-  visiblename: rust
-  version: 1.68.2
-  origversion: null
-  status: legacy
-  summary: Compiler for the Rust programming language
   vulnerable: true
 - repo: apertis_v2023
   subrepo: v2023/development
@@ -11203,6 +11100,19 @@
     - infinity0@debian.org
     - sylvestre@debian.org
   vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: rust
+  visiblename: rust
+  version: 1.47.0
+  origversion: 1.47.0-1.module+el8.3.1+8546+07bf6eb2
+  status: legacy
+  summary: The Rust Programming Language
+  licenses:
+    - (ASL 2.0 or MIT) and (BSD and MIT)
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: aur
   srcname: rust-std-android
   binname: rust-std-i686-linux-android
@@ -11216,19 +11126,6 @@
   licenses:
     - Apache
     - MIT
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: rust
-  visiblename: rust
-  version: 1.47.0
-  origversion: 1.47.0-1.module+el8.3.1+8546+07bf6eb2
-  status: legacy
-  summary: The Rust Programming Language
-  licenses:
-    - (ASL 2.0 or MIT) and (BSD and MIT)
-  categories:
-    - Unspecified
   vulnerable: true
 - repo: aur
   srcname: rust-std-android
@@ -11568,19 +11465,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: updates/sle
-  srcname: rust
-  visiblename: rust
-  version: 1.70.0
-  origversion: 1.70.0-150400.24.18.1
-  status: legacy
-  summary: A systems programming language
-  licenses:
-    - Apache-2.0 OR MIT
-  categories:
-    - Development/Languages/Rust
-  vulnerable: true
 - repo: centos_stream_8
   subrepo: AppStream
   srcname: rust
@@ -11773,6 +11657,33 @@
   categories:
     - misc
   vulnerable: true
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: rustc
+  binnames:
+    - rustc
+    - libstd-rust-1.63
+    - libstd-rust-dev
+    - libstd-rust-dev-windows
+    - libstd-rust-dev-wasm32
+    - rust-gdb
+    - rust-lldb
+    - rust-doc
+    - rust-src
+    - rust-clippy
+    - rustfmt
+    - rust-all
+  visiblename: rustc
+  version: 1.63.0
+  origversion: 1.63.0+dfsg1-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - infinity0@debian.org
+    - sylvestre@debian.org
+  categories:
+    - rust
+  vulnerable: true
 - repo: eurolinux_9
   subrepo: appstream
   srcname: rust
@@ -11803,33 +11714,6 @@
     - (ASL 2.0 or MIT) and (BSD and MIT)
   categories:
     - Unspecified
-  vulnerable: true
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: rustc
-  binnames:
-    - rustc
-    - libstd-rust-1.63
-    - libstd-rust-dev
-    - libstd-rust-dev-windows
-    - libstd-rust-dev-wasm32
-    - rust-gdb
-    - rust-lldb
-    - rust-doc
-    - rust-src
-    - rust-clippy
-    - rustfmt
-    - rust-all
-  visiblename: rustc
-  version: 1.63.0
-  origversion: 1.63.0+dfsg1-2
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - infinity0@debian.org
-    - sylvestre@debian.org
-  categories:
-    - rust
   vulnerable: true
 - repo: debian_12
   subrepo: bookworm/main
@@ -11891,6 +11775,35 @@
   binnames:
     - rust
     - rust-std-static
+    - rust-debugger-common
+    - rust-gdb
+    - rust-lldb
+    - rust-doc
+    - cargo
+    - rustfmt
+    - rust-analyzer
+    - clippy
+    - rust-src
+    - rust-analysis
+    - rust-toolset
+    - rust-debuginfo
+    - rust-debugsource
+  visiblename: rust
+  version: 1.66.1
+  origversion: 1.66.1-1.el9
+  status: legacy
+  summary: The Rust Programming Language
+  licenses:
+    - (ASL 2.0 or MIT) and (BSD and MIT)
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_9
+  subrepo: appstream
+  srcname: rust
+  binnames:
+    - rust
+    - rust-std-static
     - rust-std-static-wasm32-unknown-unknown
     - rust-std-static-wasm32-wasi
     - rust-debugger-common
@@ -11916,6 +11829,29 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: rustc-mozilla
+  binnames:
+    - rustc-mozilla
+    - libstd-rust-mozilla-1.63
+    - libstd-rust-mozilla-dev
+    - libstd-rust-mozilla-dev-windows
+    - rust-mozilla-gdb
+    - rust-mozilla-lldb
+    - rust-mozilla-doc
+    - rust-mozilla-src
+  visiblename: rustc-mozilla
+  version: 1.63.0
+  origversion: 1.63.0+dfsg1-2~deb11u1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - infinity0@debian.org
+    - sylvestre@debian.org
+  categories:
+    - misc
+  vulnerable: true
 - repo: eurolinux_9
   subrepo: appstream
   srcname: rust
@@ -11939,35 +11875,6 @@
   visiblename: rust
   version: 1.62.1
   origversion: 1.62.1-1.el9
-  status: legacy
-  summary: The Rust Programming Language
-  licenses:
-    - (ASL 2.0 or MIT) and (BSD and MIT)
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_9
-  subrepo: appstream
-  srcname: rust
-  binnames:
-    - rust
-    - rust-std-static
-    - rust-debugger-common
-    - rust-gdb
-    - rust-lldb
-    - rust-doc
-    - cargo
-    - rustfmt
-    - rust-analyzer
-    - clippy
-    - rust-src
-    - rust-analysis
-    - rust-toolset
-    - rust-debuginfo
-    - rust-debugsource
-  visiblename: rust
-  version: 1.66.1
-  origversion: 1.66.1-1.el9
   status: legacy
   summary: The Rust Programming Language
   licenses:
@@ -12053,15 +11960,6 @@
   categories:
     - misc
   vulnerable: true
-- repo: gnuguix
-  srcname: rust
-  binname: rust
-  visiblename: rust
-  version: 1.61.0
-  origversion: null
-  status: legacy
-  summary: Compiler for the Rust programming language
-  vulnerable: true
 - repo: deepin_25
   subrepo: main
   srcname: rustc
@@ -12137,29 +12035,6 @@
     - sylvestre@debian.org
   categories:
     - rust
-  vulnerable: true
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: rustc-mozilla
-  binnames:
-    - rustc-mozilla
-    - libstd-rust-mozilla-1.63
-    - libstd-rust-mozilla-dev
-    - libstd-rust-mozilla-dev-windows
-    - rust-mozilla-gdb
-    - rust-mozilla-lldb
-    - rust-mozilla-doc
-    - rust-mozilla-src
-  visiblename: rustc-mozilla
-  version: 1.63.0
-  origversion: 1.63.0+dfsg1-2~deb11u1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - infinity0@debian.org
-    - sylvestre@debian.org
-  categories:
-    - misc
   vulnerable: true
 - repo: devuan_4_0
   subrepo: chimaera/main
@@ -12286,21 +12161,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: liguros_stable
-  srcname: dev-lang/rust
-  visiblename: dev-lang/rust
-  version: 1.80.1
-  origversion: 1.80.1-r101
-  status: legacy
-  summary: Systems programming language from Mozilla
-  maintainers:
-    - rust@gentoo.org
-    - navi@vlhl.dev
-  licenses:
-    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
-  categories:
-    - dev-lang
-  vulnerable: true
 - repo: eurolinux_9
   subrepo: baseos
   srcname: rust
@@ -12390,6 +12250,60 @@
   srcname: rust
   binname: rust
   visiblename: rust
+  version: 1.76.0
+  origversion: null
+  status: legacy
+  summary: Compiler for the Rust programming language
+  vulnerable: true
+- repo: gnuguix
+  srcname: rust
+  binname: rust
+  visiblename: rust
+  version: 1.61.0
+  origversion: null
+  status: legacy
+  summary: Compiler for the Rust programming language
+  vulnerable: true
+- repo: gnuguix
+  srcname: rust
+  binname: rust
+  visiblename: rust
+  version: 1.78.0
+  origversion: null
+  status: legacy
+  summary: Compiler for the Rust programming language
+  vulnerable: true
+- repo: gnuguix
+  srcname: rust
+  binname: rust
+  visiblename: rust
+  version: 1.59.0
+  origversion: null
+  status: legacy
+  summary: Compiler for the Rust programming language
+  vulnerable: true
+- repo: gnuguix
+  srcname: rust
+  binname: rust
+  visiblename: rust
+  version: 1.54.0
+  origversion: null
+  status: legacy
+  summary: Compiler for the Rust programming language
+  vulnerable: true
+- repo: gnuguix
+  srcname: rust
+  binname: rust
+  visiblename: rust
+  version: 1.57.0
+  origversion: null
+  status: legacy
+  summary: Compiler for the Rust programming language
+  vulnerable: true
+- repo: gnuguix
+  srcname: rust
+  binname: rust
+  visiblename: rust
   version: 1.64.0
   origversion: null
   status: legacy
@@ -12400,78 +12314,6 @@
   binname: rust
   visiblename: rust
   version: 1.65.0
-  origversion: null
-  status: legacy
-  summary: Compiler for the Rust programming language
-  vulnerable: true
-- repo: gnuguix
-  srcname: rust
-  binname: rust
-  visiblename: rust
-  version: 1.62.1
-  origversion: null
-  status: legacy
-  summary: Compiler for the Rust programming language
-  vulnerable: true
-- repo: gnuguix
-  srcname: rust
-  binname: rust
-  visiblename: rust
-  version: 1.73.0
-  origversion: null
-  status: legacy
-  summary: Compiler for the Rust programming language
-  vulnerable: true
-- repo: gnuguix
-  srcname: rust
-  binname: rust
-  visiblename: rust
-  version: 1.75.0
-  origversion: null
-  status: legacy
-  summary: Compiler for the Rust programming language
-  vulnerable: true
-- repo: gnuguix
-  srcname: rust
-  binname: rust
-  visiblename: rust
-  version: 1.58.1
-  origversion: null
-  status: legacy
-  summary: Compiler for the Rust programming language
-  vulnerable: true
-- repo: gnuguix
-  srcname: rust
-  binname: rust
-  visiblename: rust
-  version: 1.71.1
-  origversion: null
-  status: legacy
-  summary: Compiler for the Rust programming language
-  vulnerable: true
-- repo: gnuguix
-  srcname: rust
-  binname: rust
-  visiblename: rust
-  version: 1.56.1
-  origversion: null
-  status: legacy
-  summary: Compiler for the Rust programming language
-  vulnerable: true
-- repo: gnuguix
-  srcname: rust
-  binname: rust
-  visiblename: rust
-  version: 1.77.1
-  origversion: null
-  status: legacy
-  summary: Compiler for the Rust programming language
-  vulnerable: true
-- repo: gnuguix
-  srcname: rust
-  binname: rust
-  visiblename: rust
-  version: 1.72.1
   origversion: null
   status: legacy
   summary: Compiler for the Rust programming language
@@ -12539,33 +12381,6 @@
   status: legacy
   summary: Compiler for the Rust programming language
   vulnerable: true
-- repo: gnuguix
-  srcname: rust
-  binname: rust
-  visiblename: rust
-  version: 1.66.1
-  origversion: null
-  status: legacy
-  summary: Compiler for the Rust programming language
-  vulnerable: true
-- repo: gnuguix
-  srcname: rust
-  binname: rust
-  visiblename: rust
-  version: 1.55.0
-  origversion: null
-  status: legacy
-  summary: Compiler for the Rust programming language
-  vulnerable: true
-- repo: gnuguix
-  srcname: rust
-  binname: rust
-  visiblename: rust
-  version: 1.79.0
-  origversion: null
-  status: legacy
-  summary: Compiler for the Rust programming language
-  vulnerable: true
 - repo: haikuports_master
   srcname: dev-lang/rust
   visiblename: dev-lang/rust
@@ -12590,18 +12405,20 @@
   categories:
     - sys-devel
   vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: rust1.65
-  visiblename: rust1.65
-  version: 1.65.0
-  origversion: 1.65.0-150300.7.9.1
+- repo: liguros_stable
+  srcname: dev-lang/rust
+  visiblename: dev-lang/rust
+  version: 1.80.1
+  origversion: 1.80.1-r101
   status: legacy
-  summary: A systems programming language
+  summary: Systems programming language from Mozilla
+  maintainers:
+    - rust@gentoo.org
+    - navi@vlhl.dev
   licenses:
-    - Apache-2.0 OR MIT
+    - '|| ( MIT Apache-2.0 ) BSD BSD-1 BSD-2 BSD-4'
   categories:
-    - Development/Languages/Rust
+    - dev-lang
   vulnerable: true
 - repo: liguros_stable
   srcname: sys-devel/rust-std
@@ -12680,10 +12497,10 @@
   vulnerable: true
 - repo: opensuse_leap_15_5
   subrepo: main/oss
-  srcname: rust1.69
-  visiblename: rust1.69
-  version: 1.69.0
-  origversion: 1.69.0-150400.9.3.1
+  srcname: rust1.64
+  visiblename: rust1.64
+  version: 1.64.0
+  origversion: 1.64.0-150300.7.3.1
   status: legacy
   summary: A systems programming language
   licenses:
@@ -12725,8 +12542,8 @@
   subrepo: updates/sle
   srcname: rust
   visiblename: rust
-  version: 1.77.0
-  origversion: 1.77.0-150500.27.9.1
+  version: 1.71.0
+  origversion: 1.71.0-150400.24.21.1
   status: legacy
   summary: A systems programming language
   licenses:
@@ -12749,18 +12566,33 @@
   categories:
     - dev-lang
   vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: rust1.43
-  visiblename: rust1.43
-  version: 1.43.1
-  origversion: 1.43.1-7.3.1
+- repo: openkylin_3_0
+  subrepo: huanghe/main
+  srcname: rustc
+  binnames:
+    - rustc
+    - libstd-rust-1.75
+    - libstd-rust-dev
+    - rust-gdb
+    - rust-lldb
+    - rust-doc
+    - rust-src
+    - rust-clippy
+    - rustfmt
+    - rust-all
+    - cargo
+    - cargo-doc
+  visiblename: rustc
+  version: 1.75.0
+  origversion: 1.75.0+dfsg-ok2.1
   status: legacy
-  summary: A systems programming language
-  licenses:
-    - Apache-2.0 OR MIT
+  maintainers:
+    - packaging@lists.openkylin.top
+    - debian@fabian.gruenbichler.email
+    - infinity0@debian.org
+    - sylvestre@debian.org
   categories:
-    - Development/Languages/Rust
+    - devel
   vulnerable: true
 - repo: liguros_stable
   srcname: dev-lang/rust
@@ -12792,12 +12624,40 @@
   categories:
     - dev-lang
   vulnerable: true
+- repo: openkylin_3_0
+  subrepo: huanghe-proposed/main
+  srcname: rustc
+  binnames:
+    - rustc
+    - libstd-rust-1.75
+    - libstd-rust-dev
+    - rust-gdb
+    - rust-lldb
+    - rust-doc
+    - rust-src
+    - rust-clippy
+    - rustfmt
+    - rust-all
+    - cargo
+    - cargo-doc
+  visiblename: rustc
+  version: 1.75.0
+  origversion: 1.75.0+dfsg-ok2.4
+  status: legacy
+  maintainers:
+    - packaging@lists.openkylin.top
+    - debian@fabian.gruenbichler.email
+    - infinity0@debian.org
+    - sylvestre@debian.org
+  categories:
+    - devel
+  vulnerable: true
 - repo: opensuse_leap_15_5
   subrepo: main/oss
-  srcname: rust1.53
-  visiblename: rust1.53
-  version: 1.53.0
-  origversion: 1.53.0-7.3.1
+  srcname: rust1.65
+  visiblename: rust1.65
+  version: 1.65.0
+  origversion: 1.65.0-150300.7.9.1
   status: legacy
   summary: A systems programming language
   licenses:
@@ -13035,10 +12895,10 @@
   vulnerable: true
 - repo: opensuse_leap_15_5
   subrepo: main/oss
-  srcname: rust
-  visiblename: rust
-  version: 1.69.0
-  origversion: 1.69.0-150400.24.15.1
+  srcname: rust1.56
+  visiblename: rust1.56
+  version: 1.56.1
+  origversion: 1.56.1-150300.7.6.1
   status: legacy
   summary: A systems programming language
   licenses:
@@ -13072,10 +12932,10 @@
   vulnerable: true
 - repo: opensuse_leap_15_5
   subrepo: main/oss
-  srcname: rust1.62
-  visiblename: rust1.62
-  version: 1.62.1
-  origversion: 1.62.1-150300.7.7.1
+  srcname: rust1.63
+  visiblename: rust1.63
+  version: 1.63.0
+  origversion: 1.63.0-150300.7.3.1
   status: legacy
   summary: A systems programming language
   licenses:
@@ -13165,19 +13025,6 @@
     - (ASL 2.0 or MIT) and (BSD and MIT)
   categories:
     - Unspecified
-  vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: rust1.66
-  visiblename: rust1.66
-  version: 1.66.0
-  origversion: 1.66.0-150400.9.9.1
-  status: legacy
-  summary: A systems programming language
-  licenses:
-    - Apache-2.0 OR MIT
-  categories:
-    - Development/Languages/Rust
   vulnerable: true
 - repo: openeuler_24_03_lts
   srcname: rust
@@ -13368,68 +13215,51 @@
   categories:
     - devel
   vulnerable: true
-- repo: openkylin_3_0
-  subrepo: huanghe/main
-  srcname: rustc
-  binnames:
-    - rustc
-    - libstd-rust-1.75
-    - libstd-rust-dev
-    - rust-gdb
-    - rust-lldb
-    - rust-doc
-    - rust-src
-    - rust-clippy
-    - rustfmt
-    - rust-all
-    - cargo
-    - cargo-doc
-  visiblename: rustc
-  version: 1.75.0
-  origversion: 1.75.0+dfsg-ok2.1
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: rust
+  visiblename: rust
+  version: 1.69.0
+  origversion: 1.69.0-150400.24.15.1
   status: legacy
-  maintainers:
-    - packaging@lists.openkylin.top
-    - debian@fabian.gruenbichler.email
-    - infinity0@debian.org
-    - sylvestre@debian.org
+  summary: A systems programming language
+  licenses:
+    - Apache-2.0 OR MIT
   categories:
-    - devel
-  vulnerable: true
-- repo: openkylin_3_0
-  subrepo: huanghe-proposed/main
-  srcname: rustc
-  binnames:
-    - rustc
-    - libstd-rust-1.75
-    - libstd-rust-dev
-    - rust-gdb
-    - rust-lldb
-    - rust-doc
-    - rust-src
-    - rust-clippy
-    - rustfmt
-    - rust-all
-    - cargo
-    - cargo-doc
-  visiblename: rustc
-  version: 1.75.0
-  origversion: 1.75.0+dfsg-ok2.4
-  status: legacy
-  maintainers:
-    - packaging@lists.openkylin.top
-    - debian@fabian.gruenbichler.email
-    - infinity0@debian.org
-    - sylvestre@debian.org
-  categories:
-    - devel
+    - Development/Languages/Rust
   vulnerable: true
 - repo: opensuse_leap_15_5
   subrepo: main/oss
-  srcname: rust1.56
-  visiblename: rust1.56
-  version: 1.56.1
-  origversion: 1.56.1-150300.7.6.1
+  srcname: rust1.69
+  visiblename: rust1.69
+  version: 1.69.0
+  origversion: 1.69.0-150400.9.3.1
+  status: legacy
+  summary: A systems programming language
+  licenses:
+    - Apache-2.0 OR MIT
+  categories:
+    - Development/Languages/Rust
+  vulnerable: true
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: rust1.43
+  visiblename: rust1.43
+  version: 1.43.1
+  origversion: 1.43.1-7.3.1
+  status: legacy
+  summary: A systems programming language
+  licenses:
+    - Apache-2.0 OR MIT
+  categories:
+    - Development/Languages/Rust
+  vulnerable: true
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: rust1.53
+  visiblename: rust1.53
+  version: 1.53.0
+  origversion: 1.53.0-7.3.1
   status: legacy
   summary: A systems programming language
   licenses:
@@ -13504,10 +13334,10 @@
   vulnerable: true
 - repo: opensuse_leap_15_5
   subrepo: main/oss
-  srcname: rust1.63
-  visiblename: rust1.63
-  version: 1.63.0
-  origversion: 1.63.0-150300.7.3.1
+  srcname: rust1.62
+  visiblename: rust1.62
+  version: 1.62.1
+  origversion: 1.62.1-150300.7.7.1
   status: legacy
   summary: A systems programming language
   licenses:
@@ -13517,10 +13347,49 @@
   vulnerable: true
 - repo: opensuse_leap_15_5
   subrepo: main/oss
-  srcname: rust1.64
-  visiblename: rust1.64
-  version: 1.64.0
-  origversion: 1.64.0-150300.7.3.1
+  srcname: rust1.66
+  visiblename: rust1.66
+  version: 1.66.0
+  origversion: 1.66.0-150400.9.9.1
+  status: legacy
+  summary: A systems programming language
+  licenses:
+    - Apache-2.0 OR MIT
+  categories:
+    - Development/Languages/Rust
+  vulnerable: true
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: rust1.67
+  visiblename: rust1.67
+  version: 1.67.1
+  origversion: 1.67.1-150400.9.6.1
+  status: legacy
+  summary: A systems programming language
+  licenses:
+    - Apache-2.0 OR MIT
+  categories:
+    - Development/Languages/Rust
+  vulnerable: true
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: rust1.68
+  visiblename: rust1.68
+  version: 1.68.2
+  origversion: 1.68.2-150400.9.10.2
+  status: legacy
+  summary: A systems programming language
+  licenses:
+    - Apache-2.0 OR MIT
+  categories:
+    - Development/Languages/Rust
+  vulnerable: true
+- repo: opensuse_leap_15_5
+  subrepo: updates/sle
+  srcname: rust
+  visiblename: rust
+  version: 1.70.0
+  origversion: 1.70.0-150400.24.18.1
   status: legacy
   summary: A systems programming language
   licenses:
@@ -13534,19 +13403,6 @@
   visiblename: rust1.70
   version: 1.70.0
   origversion: 1.70.0-150400.9.3.1
-  status: legacy
-  summary: A systems programming language
-  licenses:
-    - Apache-2.0 OR MIT
-  categories:
-    - Development/Languages/Rust
-  vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: updates/sle
-  srcname: rust
-  visiblename: rust
-  version: 1.71.0
-  origversion: 1.71.0-150400.24.21.1
   status: legacy
   summary: A systems programming language
   licenses:
@@ -13703,6 +13559,19 @@
   visiblename: rust1.76
   version: 1.76.0
   origversion: 1.76.0-150500.11.6.1
+  status: legacy
+  summary: A systems programming language
+  licenses:
+    - Apache-2.0 OR MIT
+  categories:
+    - Development/Languages/Rust
+  vulnerable: true
+- repo: opensuse_leap_15_5
+  subrepo: updates/sle
+  srcname: rust
+  visiblename: rust
+  version: 1.77.0
+  origversion: 1.77.0-150500.27.9.1
   status: legacy
   summary: A systems programming language
   licenses:
@@ -14626,6 +14495,16 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: slackware_15_0
+  subrepo: slackware
+  binname: rust
+  visiblename: rust
+  version: 1.58.1
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
 - repo: rosa_2019_1
   subrepo: main/release
   srcname: rust
@@ -14697,54 +14576,6 @@
     - kvngncrlsn@gmail.com
   categories:
     - development
-  vulnerable: true
-- repo: slackware64_15_0
-  subrepo: slackware64
-  binname: rust
-  visiblename: rust
-  version: 1.58.1
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: rust
-  visiblename: rust
-  version: 1.58.1
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: ubuntu_24_04
-  subrepo: noble/main
-  srcname: rustc
-  binnames:
-    - rustc
-    - libstd-rust-1.75
-    - libstd-rust-dev
-    - rust-gdb
-    - rust-lldb
-    - rust-doc
-    - rust-src
-    - rust-clippy
-    - rustfmt
-    - rust-all
-    - cargo
-    - cargo-doc
-  visiblename: rustc
-  version: 1.75.0+dfsg0ubuntu1
-  origversion: 1.75.0+dfsg0ubuntu1-0ubuntu7
-  status: legacy
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - debian@fabian.gruenbichler.email
-    - infinity0@debian.org
-    - sylvestre@debian.org
-  categories:
-    - misc
   vulnerable: true
 - repo: ubuntu_14_04
   subrepo: trusty-updates/universe
@@ -14859,29 +14690,6 @@
     - infinity0@debian.org
     - jordan.l.justen@intel.com
     - lucab@debian.org
-    - sylvestre@debian.org
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: ubuntu_20_04
-  subrepo: focal/universe
-  srcname: rustc
-  binnames:
-    - rustc
-    - libstd-rust-1.41
-    - libstd-rust-dev
-    - libstd-rust-dev-wasm32-cross
-    - rust-gdb
-    - rust-lldb
-    - rust-doc
-    - rust-src
-  visiblename: rustc
-  version: 1.41.0+llvm
-  origversion: 1.41.0+dfsg1+llvm-0ubuntu2
-  status: legacy
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - infinity0@debian.org
     - sylvestre@debian.org
   categories:
     - universe/misc
@@ -15053,6 +14861,29 @@
     - sylvestre@debian.org
   categories:
     - universe/devel
+  vulnerable: true
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: rustc
+  binnames:
+    - rustc
+    - libstd-rust-1.41
+    - libstd-rust-dev
+    - libstd-rust-dev-wasm32-cross
+    - rust-gdb
+    - rust-lldb
+    - rust-doc
+    - rust-src
+  visiblename: rustc
+  version: 1.41.0+llvm
+  origversion: 1.41.0+dfsg1+llvm-0ubuntu2
+  status: legacy
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - infinity0@debian.org
+    - sylvestre@debian.org
+  categories:
+    - universe/misc
   vulnerable: true
 - repo: ubuntu_22_04
   subrepo: jammy/main
@@ -15298,6 +15129,34 @@
     - sylvestre@debian.org
   categories:
     - universe/devel
+  vulnerable: true
+- repo: ubuntu_24_04
+  subrepo: noble/main
+  srcname: rustc
+  binnames:
+    - rustc
+    - libstd-rust-1.75
+    - libstd-rust-dev
+    - rust-gdb
+    - rust-lldb
+    - rust-doc
+    - rust-src
+    - rust-clippy
+    - rustfmt
+    - rust-all
+    - cargo
+    - cargo-doc
+  visiblename: rustc
+  version: 1.75.0+dfsg0ubuntu1
+  origversion: 1.75.0+dfsg0ubuntu1-0ubuntu7
+  status: legacy
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - debian@fabian.gruenbichler.email
+    - infinity0@debian.org
+    - sylvestre@debian.org
+  categories:
+    - misc
   vulnerable: true
 - repo: ubuntu_24_04
   subrepo: noble/universe
@@ -15570,4 +15429,133 @@
     - sylvestre@debian.org
   categories:
     - universe/devel
+  vulnerable: true
+- repo: gnuguix
+  srcname: rust
+  binname: rust
+  visiblename: rust
+  version: 1.67.1
+  origversion: null
+  status: legacy
+  summary: Compiler for the Rust programming language
+  vulnerable: true
+- repo: gnuguix
+  srcname: rust
+  binname: rust
+  visiblename: rust
+  version: 1.68.2
+  origversion: null
+  status: legacy
+  summary: Compiler for the Rust programming language
+  vulnerable: true
+- repo: gnuguix
+  srcname: rust
+  binname: rust
+  visiblename: rust
+  version: 1.62.1
+  origversion: null
+  status: legacy
+  summary: Compiler for the Rust programming language
+  vulnerable: true
+- repo: gnuguix
+  srcname: rust
+  binname: rust
+  visiblename: rust
+  version: 1.73.0
+  origversion: null
+  status: legacy
+  summary: Compiler for the Rust programming language
+  vulnerable: true
+- repo: gnuguix
+  srcname: rust
+  binname: rust
+  visiblename: rust
+  version: 1.75.0
+  origversion: null
+  status: legacy
+  summary: Compiler for the Rust programming language
+  vulnerable: true
+- repo: gnuguix
+  srcname: rust
+  binname: rust
+  visiblename: rust
+  version: 1.58.1
+  origversion: null
+  status: legacy
+  summary: Compiler for the Rust programming language
+  vulnerable: true
+- repo: gnuguix
+  srcname: rust
+  binname: rust
+  visiblename: rust
+  version: 1.71.1
+  origversion: null
+  status: legacy
+  summary: Compiler for the Rust programming language
+  vulnerable: true
+- repo: gnuguix
+  srcname: rust
+  binname: rust
+  visiblename: rust
+  version: 1.56.1
+  origversion: null
+  status: legacy
+  summary: Compiler for the Rust programming language
+  vulnerable: true
+- repo: gnuguix
+  srcname: rust
+  binname: rust
+  visiblename: rust
+  version: 1.77.1
+  origversion: null
+  status: legacy
+  summary: Compiler for the Rust programming language
+  vulnerable: true
+- repo: amazon_2
+  srcname: rust
+  visiblename: rust
+  version: 1.68.2
+  origversion: 1.68.2-1.amzn2.0.3
+  status: legacy
+  summary: The Rust Programming Language
+  licenses:
+    - (ASL 2.0 or MIT) and (BSD and MIT)
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: rust
+  visiblename: rust
+  version: 1.68.2
+  origversion: 1.68.2-1.amzn2.0.4
+  status: legacy
+  summary: The Rust Programming Language
+  licenses:
+    - (ASL 2.0 or MIT) and (BSD and MIT)
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: rust
+  visiblename: rust
+  version: 1.68.2
+  origversion: 1.68.2-1.amzn2.0.5
+  status: legacy
+  summary: The Rust Programming Language
+  licenses:
+    - (ASL 2.0 or MIT) and (BSD and MIT)
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: rust
+  visiblename: rust
+  version: 1.68.2
+  origversion: 1.68.2-1.amzn2.0.6
+  status: legacy
+  summary: The Rust Programming Language
+  licenses:
+    - (ASL 2.0 or MIT) and (BSD and MIT)
+  categories:
+    - Unspecified
   vulnerable: true
