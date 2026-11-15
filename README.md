@@ -47,36 +47,36 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 121,890 · **Forks**: 16,662 · **Open issues**: 64,666 · **Contributors**: 6,978
+- **Stars**: 121,941 · **Forks**: 16,678 · **Open issues**: 64,680 · **Contributors**: 6,977
 
 ## Totals (cumulative)
 
-- **Releases**: 158 · **Merged PRs**: 76050 · **Open PRs**: 1449 · **Closed issues**: 53533 · **Open issues**: 11133 · **Commits**: 347101
+- **Releases**: 158 · **Merged PRs**: 76050 · **Open PRs**: 1467 · **Closed issues**: 53533 · **Open issues**: 11147 · **Commits**: 347101
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 2 | 594 | 326 | 133 | 274 | 2599 |
-| last60d | 2026-09-15 | 3 | 1421 | 466 | 300 | 488 | 5834 |
-| 90d | 2026-08-16 | 5 | 2253 | 615 | 511 | 639 | 9120 |
-| last180d | 2026-05-18 | 9 | 4548 | 877 | 1173 | 1065 | 18599 |
-| 360d | 2025-11-19 | 15 | 8398 | 1146 | 2430 | 1919 | 34224 |
-| last720d | 2024-11-24 | 27 | 16547 | 1362 | 5615 | 3648 | 68040 |
+| 30d | 2026-10-16 | 2 | 585 | 341 | 113 | 280 | 1998 |
+| last60d | 2026-09-16 | 3 | 1399 | 482 | 296 | 496 | 5046 |
+| 90d | 2026-08-17 | 5 | 2208 | 629 | 505 | 650 | 8229 |
+| last180d | 2026-05-19 | 9 | 4532 | 894 | 1165 | 1078 | 18132 |
+| 360d | 2025-11-20 | 15 | 8377 | 1162 | 2424 | 1928 | 33756 |
+| last720d | 2024-11-25 | 27 | 16511 | 1380 | 5607 | 3658 | 67967 |
 
 ## Distribution status
 
-Reported by **990** distros on [repology.org](https://repology.org/project/rust). **53** are ✅ on the latest upstream release, **431** are ⚠️ on an older version.
+Reported by **983** distros on [repology.org](https://repology.org/project/rust). **76** are ✅ on the latest upstream release, **401** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `1.85.0` | 🪦 legacy |
 | Debian 14 | `1.94.1` | 🪦 legacy |
 | Debian 13 | `1.85.0` | 🪦 legacy |
-| Ubuntu 26.04 LTS | `1.97.1~26.04` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.93.1` | 🪦 legacy |
 | Ubuntu 24.04 LTS | `1.82.0+dfsg0ubuntu0` | 🪦 legacy |
-| Arch | `1.99.1` | ⚠️ outdated |
-| Homebrew | `1.99.1` | ⚠️ outdated |
+| Arch | `1.100.0` | ✅ latest |
+| Homebrew | `1.100.0` | ✅ latest |
 | Fedora rawhide | `1.99.1` | ⚠️ outdated |
 | Nix unstable | `1.99.1` | ⚠️ outdated |
 | Void | `1.99.0` | ⚠️ outdated |
@@ -92,4 +92,4 @@ Install metadata for rust lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T05:06:39Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T05:00:05Z._
