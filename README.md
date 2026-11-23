@@ -14,11 +14,11 @@ x install rust
 
 ## Code insight
 
-Total: **4,015,613** lines of code across **40115** files in the top 5 languages.
+Total: **4,018,899** lines of code across **40136** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 3,027,401 | 347,298 | 417,632 | 39882 |
+| Rust | 3,030,685 | 348,034 | 418,165 | 39903 |
 | Json | 361,864 | 0 | 2 | 66 |
 | Html | 315,595 | 26 | 259 | 140 |
 | Xml | 158,446 | 18 | 73 | 9 |
@@ -47,33 +47,33 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 122,312 · **Forks**: 16,658 · **Open issues**: 64,760 · **Contributors**: 7,027
+- **Stars**: 122,422 · **Forks**: 16,666 · **Open issues**: 64,768 · **Contributors**: 7,030
 
 ## Totals (cumulative)
 
-- **Releases**: 158 · **Merged PRs**: 76247 · **Open PRs**: 1476 · **Closed issues**: 53605 · **Open issues**: 11155 · **Commits**: 349334
+- **Releases**: 158 · **Merged PRs**: 76287 · **Open PRs**: 1452 · **Closed issues**: 53613 · **Open issues**: 11155 · **Commits**: 349567
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-23 | 1 | 590 | 342 | 97 | 260 | 2054 |
-| last60d | 2026-09-23 | 3 | 1368 | 486 | 295 | 519 | 5262 |
-| 90d | 2026-08-24 | 4 | 2183 | 611 | 483 | 654 | 8316 |
-| last180d | 2026-05-26 | 9 | 4618 | 889 | 1182 | 1088 | 18306 |
-| 360d | 2025-11-27 | 15 | 8461 | 1160 | 2438 | 1913 | 34199 |
-| last720d | 2024-12-02 | 26 | 16557 | 1387 | 5594 | 3640 | 68578 |
+| 30d | 2026-10-24 | 1 | 606 | 314 | 92 | 255 | 2279 |
+| last60d | 2026-09-24 | 3 | 1376 | 461 | 292 | 517 | 5494 |
+| 90d | 2026-08-25 | 4 | 2185 | 573 | 479 | 654 | 8550 |
+| last180d | 2026-05-27 | 9 | 4632 | 865 | 1180 | 1088 | 18540 |
+| 360d | 2025-11-28 | 15 | 8487 | 1135 | 2434 | 1913 | 34428 |
+| last720d | 2024-12-03 | 26 | 16566 | 1362 | 5586 | 3641 | 68700 |
 
 ## Distribution status
 
-Reported by **984** distros on [repology.org](https://repology.org/project/rust). **113** are ✅ on the latest upstream release, **357** are ⚠️ on an older version.
+Reported by **991** distros on [repology.org](https://repology.org/project/rust). **115** are ✅ on the latest upstream release, **355** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `1.85.0` | 🪦 legacy |
 | Debian 14 | `1.94.1` | 🪦 legacy |
 | Debian 13 | `1.85.0` | 🪦 legacy |
-| Ubuntu 26.04 LTS | `1.93.1` | 🪦 legacy |
+| Ubuntu 26.04 LTS | `1.91.1` | 🪦 legacy |
 | Ubuntu 24.04 LTS | `1.82.0+dfsg0ubuntu0` | 🪦 legacy |
 | Arch | `1.100.0` | ✅ latest |
 | Homebrew | `1.100.0` | ✅ latest |
@@ -92,4 +92,4 @@ Install metadata for rust lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261122.yml` · 2026-11-22T05:17:24Z._
+_Snapshot: `data/card/261123.yml` · 2026-11-23T05:57:39Z._
